@@ -1,0 +1,1931 @@
+Archive member included to satisfy reference by file (symbol)
+
+bin/libcore.a(wiring_digital.o)
+                              bin/SPI.o (pinMode)
+bin/libcore.a(Print.o)        bin/Wire.o (_ZN5Print5writeEPKhj)
+bin/libcore.a(abi.o)          bin/Wire.o (__cxa_pure_virtual)
+bin/libcore.a(main.o)         /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o (main)
+bin/libcore.a(CDC.o)          bin/sd.o (_ZN7Serial_5beginEm)
+bin/libcore.a(wiring.o)       bin/libcore.a(CDC.o) (delay)
+bin/libcore.a(hooks.o)        bin/libcore.a(wiring.o) (yield)
+bin/libcore.a(USBCore.o)      bin/libcore.a(CDC.o) (_Z13USB_Availableh)
+bin/libcore.a(HID.o)          bin/libcore.a(USBCore.o) (_Z16HID_GetInterfacePh)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3.o)
+                              bin/libcore.a(Print.o) (__subsf3)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o)
+                              /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3.o) (__addsf3x)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(cmpsf2.o)
+                              bin/libcore.a(Print.o) (__ltsf2)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3.o)
+                              bin/libcore.a(Print.o) (__divsf3)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+                              /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3.o) (__divsf3x)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fixsfsi.o)
+                              bin/libcore.a(Print.o) (__fixsfsi)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+                              bin/libcore.a(Print.o) (__fixunssfsi)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(floatsisf.o)
+                              bin/libcore.a(Print.o) (__floatunsisf)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_cmp.o)
+                              /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(cmpsf2.o) (__fp_cmp)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_inf.o)
+                              /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_inf)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_nan.o)
+                              /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_nan)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_pscA.o)
+                              /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_pscA)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_pscB.o)
+                              /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_pscB)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_round.o)
+                              /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3.o) (__fp_round)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_split3.o)
+                              /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_split3)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_zero.o)
+                              /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_zero)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(gesf2.o)
+                              bin/libcore.a(Print.o) (__gtsf2)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3.o)
+                              bin/libcore.a(Print.o) (__mulsf3)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                              /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3.o) (__mulsf3x)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(unordsf2.o)
+                              bin/libcore.a(Print.o) (__unordsf2)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+                              bin/Wire.o (__udivmodsi4)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                              /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o (exit)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                              bin/libcore.a(wiring_digital.o) (__tablejump2__)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                              bin/sd.o (__do_copy_data)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                              bin/sd.o (__do_clear_bss)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+                              bin/sd.o (__do_global_ctors)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+                              bin/sd.o (__muluhisi3)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+                              /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o) (__umulhisi3)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+                              bin/File.o (malloc)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(abort.o)
+                              bin/libcore.a(abi.o) (abort)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strchr.o)
+                              bin/SD.o (strchr)
+/usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strncpy.o)
+                              bin/SD.o (strncpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+__flp               0x2               /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+
+Discarded input sections
+
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+ .text          0x0000000000000000        0x0 bin/sd.o
+ .bss           0x0000000000000000        0x0 bin/sd.o
+ .text          0x0000000000000000        0x0 bin/twi.o
+ .bss           0x0000000000000000        0x0 bin/twi.o
+ .text.twi_init
+                0x0000000000000000       0x3c bin/twi.o
+ .text.twi_setAddress
+                0x0000000000000000        0x8 bin/twi.o
+ .text.twi_readFrom
+                0x0000000000000000       0x88 bin/twi.o
+ .text.twi_writeTo
+                0x0000000000000000       0xa6 bin/twi.o
+ .text.twi_attachSlaveRxEvent
+                0x0000000000000000        0xa bin/twi.o
+ .text.twi_attachSlaveTxEvent
+                0x0000000000000000        0xa bin/twi.o
+ .text.twi_reply
+                0x0000000000000000       0x10 bin/twi.o
+ .group         0x0000000000000000        0x8 bin/Wire.o
+ .group         0x0000000000000000        0x8 bin/Wire.o
+ .text          0x0000000000000000        0x0 bin/Wire.o
+ .bss           0x0000000000000000        0x0 bin/Wire.o
+ .text._ZN7TwoWire16onReceiveServiceEPhi
+                0x0000000000000000       0x46 bin/Wire.o
+ .text._ZN7TwoWire16onRequestServiceEv
+                0x0000000000000000       0x18 bin/Wire.o
+ .text._ZN7TwoWire5beginEv
+                0x0000000000000000       0x14 bin/Wire.o
+ .text._ZN7TwoWire5beginEh
+                0x0000000000000000       0x26 bin/Wire.o
+ .text._ZN7TwoWire5beginEi
+                0x0000000000000000        0x4 bin/Wire.o
+ .text._ZN7TwoWire8setClockEm
+                0x0000000000000000       0x26 bin/Wire.o
+ .text._ZN7TwoWire11requestFromEhhh
+                0x0000000000000000       0x1a bin/Wire.o
+ .text._ZN7TwoWire11requestFromEhh
+                0x0000000000000000        0x6 bin/Wire.o
+ .text._ZN7TwoWire11requestFromEii
+                0x0000000000000000        0x6 bin/Wire.o
+ .text._ZN7TwoWire11requestFromEiii
+                0x0000000000000000        0x4 bin/Wire.o
+ .text._ZN7TwoWire17beginTransmissionEh
+                0x0000000000000000       0x14 bin/Wire.o
+ .text._ZN7TwoWire17beginTransmissionEi
+                0x0000000000000000        0x4 bin/Wire.o
+ .text._ZN7TwoWire15endTransmissionEh
+                0x0000000000000000       0x26 bin/Wire.o
+ .text._ZN7TwoWire15endTransmissionEv
+                0x0000000000000000        0x6 bin/Wire.o
+ .text._ZN7TwoWire9onReceiveEPFviE
+                0x0000000000000000        0xa bin/Wire.o
+ .text._ZN7TwoWire9onRequestEPFvvE
+                0x0000000000000000        0xa bin/Wire.o
+ .rodata._ZTV6Stream
+                0x0000000000000000       0x10 bin/Wire.o
+ .bss._ZN7TwoWire14user_onReceiveE
+                0x0000000000000000        0x2 bin/Wire.o
+ .bss._ZN7TwoWire14user_onRequestE
+                0x0000000000000000        0x2 bin/Wire.o
+ .bss._ZN7TwoWire9txAddressE
+                0x0000000000000000        0x1 bin/Wire.o
+ .text          0x0000000000000000        0x0 bin/SPI.o
+ .bss           0x0000000000000000        0x0 bin/SPI.o
+ .text._ZN8SPIClass5beginEv
+                0x0000000000000000       0x6c bin/SPI.o
+ .text._ZN8SPIClass3endEv
+                0x0000000000000000       0x28 bin/SPI.o
+ .text._ZN8SPIClass14usingInterruptEh
+                0x0000000000000000       0x54 bin/SPI.o
+ .text._ZN8SPIClass17notUsingInterruptEh
+                0x0000000000000000       0x36 bin/SPI.o
+ .rodata.CSWTCH.20
+                0x0000000000000000        0x5 bin/SPI.o
+ .bss._ZN8SPIClass13interruptSaveE
+                0x0000000000000000        0x1 bin/SPI.o
+ .bss._ZN8SPIClass13interruptMaskE
+                0x0000000000000000        0x1 bin/SPI.o
+ .bss._ZN8SPIClass13interruptModeE
+                0x0000000000000000        0x1 bin/SPI.o
+ .bss._ZN8SPIClass11initializedE
+                0x0000000000000000        0x1 bin/SPI.o
+ .bss.SPI       0x0000000000000000        0x1 bin/SPI.o
+ .group         0x0000000000000000        0x8 bin/SD.o
+ .text          0x0000000000000000        0x0 bin/SD.o
+ .bss           0x0000000000000000        0x0 bin/SD.o
+ .text._Z19callback_pathExistsR6SdFilePcbPv
+                0x0000000000000000       0x5a bin/SD.o
+ .text._Z20callback_makeDirPathR6SdFilePcbPv
+                0x0000000000000000       0x6a bin/SD.o
+ .text._Z14callback_rmdirR6SdFilePcbPv
+                0x0000000000000000       0x60 bin/SD.o
+ .text._Z15callback_removeR6SdFilePcbPv
+                0x0000000000000000       0x18 bin/SD.o
+ .text._Z20getNextPathComponentPcPjS_
+                0x0000000000000000       0x70 bin/SD.o
+ .text._Z8walkPathPcR6SdFilePFbS1_S_bPvES2_
+                0x0000000000000000      0x120 bin/SD.o
+ .text._ZN7SDClass5beginEh
+                0x0000000000000000       0x5e bin/SD.o
+ .text._ZN6SdFileC2ERKS_
+                0x0000000000000000       0xa2 bin/SD.o
+ .text._ZN7SDClass12getParentDirEPKcPi
+                0x0000000000000000      0x132 bin/SD.o
+ .rodata.str1.1
+                0x0000000000000000        0x2 bin/SD.o
+ .text._ZN7SDClass4openEPKch
+                0x0000000000000000      0x11c bin/SD.o
+ .text._ZN7SDClass6existsEPc
+                0x0000000000000000       0x16 bin/SD.o
+ .text._ZN7SDClass5mkdirEPc
+                0x0000000000000000       0x16 bin/SD.o
+ .text._ZN7SDClass5rmdirEPc
+                0x0000000000000000       0x16 bin/SD.o
+ .text._ZN7SDClass6removeEPc
+                0x0000000000000000       0x16 bin/SD.o
+ .text._ZN4File12openNextFileEh
+                0x0000000000000000       0xd4 bin/SD.o
+ .text._ZN4File15rewindDirectoryEv
+                0x0000000000000000       0x28 bin/SD.o
+ .group         0x0000000000000000        0x8 bin/File.o
+ .group         0x0000000000000000        0x8 bin/File.o
+ .group         0x0000000000000000        0x8 bin/File.o
+ .text          0x0000000000000000        0x0 bin/File.o
+ .bss           0x0000000000000000        0x0 bin/File.o
+ .text._ZN4File5writeEh
+                0x0000000000000000       0x2c bin/File.o
+ .text._ZN4File5writeEPKhj
+                0x0000000000000000       0x36 bin/File.o
+ .text._ZN4File5flushEv
+                0x0000000000000000       0x10 bin/File.o
+ .text._ZN6SdFile4readEv
+                0x0000000000000000       0x2e bin/File.o
+ .text._ZN4File4readEv
+                0x0000000000000000       0x14 bin/File.o
+ .text._ZN4File4peekEv
+                0x0000000000000000       0x56 bin/File.o
+ .text._ZN4FileC2E6SdFilePKc
+                0x0000000000000000       0x72 bin/File.o
+ .text._ZN4FileC2Ev
+                0x0000000000000000       0x26 bin/File.o
+ .text._ZN4File4nameEv
+                0x0000000000000000        0x4 bin/File.o
+ .text._ZN4File11isDirectoryEv
+                0x0000000000000000       0x1a bin/File.o
+ .text._ZN4File4readEPvj
+                0x0000000000000000       0x14 bin/File.o
+ .text._ZN4File4seekEm
+                0x0000000000000000       0x1a bin/File.o
+ .text._ZN4File8positionEv
+                0x0000000000000000       0x20 bin/File.o
+ .text._ZN4File4sizeEv
+                0x0000000000000000       0x20 bin/File.o
+ .text._ZN4File9availableEv
+                0x0000000000000000       0x5e bin/File.o
+ .text._ZN4File5closeEv
+                0x0000000000000000       0x24 bin/File.o
+ .text._ZN4FilecvbEv
+                0x0000000000000000       0x1a bin/File.o
+ .rodata._ZTV6Stream
+                0x0000000000000000       0x10 bin/File.o
+ .rodata._ZTV4File
+                0x0000000000000000       0x10 bin/File.o
+ .text          0x0000000000000000        0x0 bin/libcore.a(wiring_digital.o)
+ .bss           0x0000000000000000        0x0 bin/libcore.a(wiring_digital.o)
+ .text.turnOffPWM
+                0x0000000000000000       0x7a bin/libcore.a(wiring_digital.o)
+ .progmem.gcc_sw_table.turnOffPWM
+                0x0000000000000000       0x1e bin/libcore.a(wiring_digital.o)
+ .text.pinMode  0x0000000000000000       0x72 bin/libcore.a(wiring_digital.o)
+ .text.digitalWrite
+                0x0000000000000000       0x6c bin/libcore.a(wiring_digital.o)
+ .text.digitalRead
+                0x0000000000000000       0x52 bin/libcore.a(wiring_digital.o)
+ .progmem.data.analog_pin_to_channel_PGM
+                0x0000000000000000        0xc bin/libcore.a(wiring_digital.o)
+ .progmem.data.digital_pin_to_timer_PGM
+                0x0000000000000000       0x10 bin/libcore.a(wiring_digital.o)
+ .progmem.data.digital_pin_to_bit_mask_PGM
+                0x0000000000000000       0x1e bin/libcore.a(wiring_digital.o)
+ .progmem.data.digital_pin_to_port_PGM
+                0x0000000000000000       0x1e bin/libcore.a(wiring_digital.o)
+ .progmem.data.port_to_input_PGM
+                0x0000000000000000        0xe bin/libcore.a(wiring_digital.o)
+ .progmem.data.port_to_output_PGM
+                0x0000000000000000        0xe bin/libcore.a(wiring_digital.o)
+ .progmem.data.port_to_mode_PGM
+                0x0000000000000000        0xe bin/libcore.a(wiring_digital.o)
+ .group         0x0000000000000000        0x8 bin/libcore.a(Print.o)
+ .group         0x0000000000000000        0x8 bin/libcore.a(Print.o)
+ .text          0x0000000000000000        0x0 bin/libcore.a(Print.o)
+ .bss           0x0000000000000000        0x0 bin/libcore.a(Print.o)
+ .text._ZN5Print5printEPK19__FlashStringHelper
+                0x0000000000000000       0x4a bin/libcore.a(Print.o)
+ .text._ZN5Print5printERK6String
+                0x0000000000000000       0x1c bin/libcore.a(Print.o)
+ .text._ZN5Print5printEc
+                0x0000000000000000        0xe bin/libcore.a(Print.o)
+ .text._ZN5Print5printERK9Printable
+                0x0000000000000000       0x14 bin/libcore.a(Print.o)
+ .text._ZN5Print7printlnEPK19__FlashStringHelper
+                0x0000000000000000       0x24 bin/libcore.a(Print.o)
+ .text._ZN5Print7printlnERK6String
+                0x0000000000000000       0x24 bin/libcore.a(Print.o)
+ .text._ZN5Print7printlnEc
+                0x0000000000000000       0x24 bin/libcore.a(Print.o)
+ .text._ZN5Print7printlnERK9Printable
+                0x0000000000000000       0x24 bin/libcore.a(Print.o)
+ .text._ZN5Print5printEli
+                0x0000000000000000       0x94 bin/libcore.a(Print.o)
+ .text._ZN5Print5printEii
+                0x0000000000000000       0x10 bin/libcore.a(Print.o)
+ .text._ZN5Print7printlnEii
+                0x0000000000000000       0x30 bin/libcore.a(Print.o)
+ .text._ZN5Print7printlnEli
+                0x0000000000000000       0x24 bin/libcore.a(Print.o)
+ .text._ZN5Print5printEhi
+                0x0000000000000000        0xe bin/libcore.a(Print.o)
+ .text._ZN5Print5printEji
+                0x0000000000000000        0xc bin/libcore.a(Print.o)
+ .text._ZN5Print7printlnEji
+                0x0000000000000000       0x2c bin/libcore.a(Print.o)
+ .text._ZN5Print10printFloatEdh
+                0x0000000000000000      0x1d6 bin/libcore.a(Print.o)
+ .text._ZN5Print5printEdi
+                0x0000000000000000        0x4 bin/libcore.a(Print.o)
+ .text._ZN5Print7printlnEdi
+                0x0000000000000000       0x24 bin/libcore.a(Print.o)
+ .rodata._ZTV5Print
+                0x0000000000000000        0x8 bin/libcore.a(Print.o)
+ .text          0x0000000000000000        0x0 bin/libcore.a(abi.o)
+ .bss           0x0000000000000000        0x0 bin/libcore.a(abi.o)
+ .text.__cxa_pure_virtual
+                0x0000000000000000        0x4 bin/libcore.a(abi.o)
+ .text.__cxa_deleted_virtual
+                0x0000000000000000        0x4 bin/libcore.a(abi.o)
+ .text          0x0000000000000000        0x0 bin/libcore.a(main.o)
+ .bss           0x0000000000000000        0x0 bin/libcore.a(main.o)
+ .text.atexit   0x0000000000000000        0x6 bin/libcore.a(main.o)
+ .group         0x0000000000000000        0x8 bin/libcore.a(CDC.o)
+ .text          0x0000000000000000        0x0 bin/libcore.a(CDC.o)
+ .bss           0x0000000000000000        0x0 bin/libcore.a(CDC.o)
+ .text._ZN7Serial_5beginEmh
+                0x0000000000000000        0xc bin/libcore.a(CDC.o)
+ .text._ZN7Serial_3endEv
+                0x0000000000000000        0x2 bin/libcore.a(CDC.o)
+ .text          0x0000000000000000        0x0 bin/libcore.a(wiring.o)
+ .bss           0x0000000000000000        0x0 bin/libcore.a(wiring.o)
+ .text.millis   0x0000000000000000       0x18 bin/libcore.a(wiring.o)
+ .text.delayMicroseconds
+                0x0000000000000000       0x12 bin/libcore.a(wiring.o)
+ .text          0x0000000000000000        0x0 bin/libcore.a(hooks.o)
+ .bss           0x0000000000000000        0x0 bin/libcore.a(hooks.o)
+ .group         0x0000000000000000        0x8 bin/libcore.a(USBCore.o)
+ .text          0x0000000000000000        0x0 bin/libcore.a(USBCore.o)
+ .bss           0x0000000000000000        0x0 bin/libcore.a(USBCore.o)
+ .text._Z19USBGetConfigurationv
+                0x0000000000000000        0x6 bin/libcore.a(USBCore.o)
+ .text._Z12USBConnectedv
+                0x0000000000000000       0x22 bin/libcore.a(USBCore.o)
+ .text._ZN10USBDevice_C2Ev
+                0x0000000000000000        0x2 bin/libcore.a(USBCore.o)
+ .text._ZN10USBDevice_6detachEv
+                0x0000000000000000        0x2 bin/libcore.a(USBCore.o)
+ .text._ZN10USBDevice_10configuredEv
+                0x0000000000000000        0xe bin/libcore.a(USBCore.o)
+ .text._ZN10USBDevice_4pollEv
+                0x0000000000000000        0x2 bin/libcore.a(USBCore.o)
+ .group         0x0000000000000000        0x8 bin/libcore.a(HID.o)
+ .text          0x0000000000000000        0x0 bin/libcore.a(HID.o)
+ .bss           0x0000000000000000        0x0 bin/libcore.a(HID.o)
+ .text._ZN6Mouse_C2Ev
+                0x0000000000000000        0x6 bin/libcore.a(HID.o)
+ .text._ZN6Mouse_5beginEv
+                0x0000000000000000        0x2 bin/libcore.a(HID.o)
+ .text._ZN6Mouse_3endEv
+                0x0000000000000000        0x2 bin/libcore.a(HID.o)
+ .text._ZN6Mouse_4moveEaaa
+                0x0000000000000000       0x36 bin/libcore.a(HID.o)
+ .text._ZN6Mouse_5clickEh
+                0x0000000000000000       0x24 bin/libcore.a(HID.o)
+ .text._ZN6Mouse_7buttonsEh
+                0x0000000000000000       0x16 bin/libcore.a(HID.o)
+ .text._ZN6Mouse_5pressEh
+                0x0000000000000000        0xa bin/libcore.a(HID.o)
+ .text._ZN6Mouse_7releaseEh
+                0x0000000000000000        0xc bin/libcore.a(HID.o)
+ .text._ZN6Mouse_9isPressedEh
+                0x0000000000000000        0xe bin/libcore.a(HID.o)
+ .text._ZN9Keyboard_C2Ev
+                0x0000000000000000       0x10 bin/libcore.a(HID.o)
+ .text._ZN9Keyboard_5beginEv
+                0x0000000000000000        0x2 bin/libcore.a(HID.o)
+ .text._ZN9Keyboard_3endEv
+                0x0000000000000000        0x2 bin/libcore.a(HID.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xa /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0xc0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(cmpsf2.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(cmpsf2.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x8 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(cmpsf2.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x4 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0xcc /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fixsfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fixsfsi.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xa /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fixsfsi.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x58 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(floatsisf.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(floatsisf.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x7a /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(floatsisf.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_cmp.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_cmp.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x48 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_cmp.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xc /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x6 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_round.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_round.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x22 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_round.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x44 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(gesf2.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(gesf2.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x8 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(gesf2.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x4 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0xc2 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(unordsf2.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(unordsf2.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x8 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(unordsf2.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+ .text.avr-libc
+                0x0000000000000000      0x24e /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+ COMMON         0x0000000000000000        0x4 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(abort.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(abort.o)
+ .text.avr-libc
+                0x0000000000000000        0xa /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(abort.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strchr.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strchr.o)
+ .text.avr-libc
+                0x0000000000000000       0x16 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strchr.o)
+ .text          0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strncpy.o)
+ .bss           0x0000000000000000        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strncpy.o)
+ .text.avr-libc
+                0x0000000000000000       0x1e /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strncpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000400 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+LOAD bin/sd.o
+LOAD bin/twi.o
+LOAD bin/Wire.o
+LOAD bin/SPI.o
+LOAD bin/SD.o
+LOAD bin/File.o
+LOAD bin/libcore.a
+LOAD /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a
+START GROUP
+LOAD /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a
+LOAD /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a
+LOAD /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x1810
+ *(.vectors)
+ .vectors       0x0000000000000000       0xac /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000000000000ac                . = ALIGN (0x2)
+                0x00000000000000ac                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000000000000ac        0x0 linker stubs
+ *(.trampolines*)
+                0x00000000000000ac                __trampolines_end = .
+ *(.progmem*)
+ .progmem.data._cdcInterface
+                0x00000000000000ac       0x42 bin/libcore.a(CDC.o)
+                0x00000000000000ac                _cdcInterface
+ .progmem.data._initEndpoints
+                0x00000000000000ee        0x5 bin/libcore.a(USBCore.o)
+                0x00000000000000ee                _initEndpoints
+ .progmem.data.USB_DeviceDescriptorA
+                0x00000000000000f3       0x12 bin/libcore.a(USBCore.o)
+                0x00000000000000f3                USB_DeviceDescriptorA
+ .progmem.data.USB_DeviceDescriptor
+                0x0000000000000105       0x12 bin/libcore.a(USBCore.o)
+                0x0000000000000105                USB_DeviceDescriptor
+ .progmem.data.STRING_MANUFACTURER
+                0x0000000000000117        0x9 bin/libcore.a(USBCore.o)
+                0x0000000000000117                STRING_MANUFACTURER
+ .progmem.data.STRING_PRODUCT
+                0x0000000000000120        0xd bin/libcore.a(USBCore.o)
+                0x0000000000000120                STRING_PRODUCT
+ .progmem.data.STRING_LANGUAGE
+                0x000000000000012d        0x4 bin/libcore.a(USBCore.o)
+                0x000000000000012d                STRING_LANGUAGE
+ .progmem.data._asciimap
+                0x0000000000000131       0x80 bin/libcore.a(HID.o)
+                0x0000000000000131                _asciimap
+ .progmem.data._hidInterface
+                0x00000000000001b1       0x19 bin/libcore.a(HID.o)
+                0x00000000000001b1                _hidInterface
+ .progmem.data._hidReportDescriptor
+                0x00000000000001ca       0x65 bin/libcore.a(HID.o)
+                0x00000000000001ca                _hidReportDescriptor
+                0x0000000000000230                . = ALIGN (0x2)
+ *fill*         0x000000000000022f        0x1 
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000230                __ctors_start = .
+ *(.ctors)
+ .ctors         0x0000000000000230        0x2 bin/sd.o
+ .ctors         0x0000000000000232        0x2 bin/Wire.o
+ .ctors         0x0000000000000234        0x2 bin/SD.o
+ .ctors         0x0000000000000236        0x2 bin/libcore.a(CDC.o)
+ .ctors         0x0000000000000238        0x2 bin/libcore.a(HID.o)
+                0x000000000000023a                __ctors_end = .
+                0x000000000000023a                __dtors_start = .
+ *(.dtors)
+                0x000000000000023a                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000000000023a        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+                0x000000000000023a                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000000000023a        0xc /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000246       0x16 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000246                __do_copy_data
+ .init4         0x000000000000025c       0x10 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                0x000000000000025c                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x000000000000026c       0x16 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+                0x000000000000026c                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000000000000282        0x6 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+ *(.init9)
+ *(.text)
+ .text          0x0000000000000288        0x2 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+                0x0000000000000288                __vector_38
+                0x0000000000000288                __vector_22
+                0x0000000000000288                __vector_28
+                0x0000000000000288                __vector_1
+                0x0000000000000288                __vector_32
+                0x0000000000000288                __vector_34
+                0x0000000000000288                __vector_24
+                0x0000000000000288                __vector_12
+                0x0000000000000288                __bad_interrupt
+                0x0000000000000288                __vector_6
+                0x0000000000000288                __vector_31
+                0x0000000000000288                __vector_35
+                0x0000000000000288                __vector_39
+                0x0000000000000288                __vector_3
+                0x0000000000000288                __vector_30
+                0x0000000000000288                __vector_25
+                0x0000000000000288                __vector_13
+                0x0000000000000288                __vector_17
+                0x0000000000000288                __vector_19
+                0x0000000000000288                __vector_7
+                0x0000000000000288                __vector_41
+                0x0000000000000288                __vector_27
+                0x0000000000000288                __vector_5
+                0x0000000000000288                __vector_33
+                0x0000000000000288                __vector_37
+                0x0000000000000288                __vector_4
+                0x0000000000000288                __vector_9
+                0x0000000000000288                __vector_2
+                0x0000000000000288                __vector_21
+                0x0000000000000288                __vector_15
+                0x0000000000000288                __vector_29
+                0x0000000000000288                __vector_40
+                0x0000000000000288                __vector_8
+                0x0000000000000288                __vector_26
+                0x0000000000000288                __vector_14
+                0x0000000000000288                __vector_16
+                0x0000000000000288                __vector_18
+                0x0000000000000288                __vector_20
+                0x0000000000000288                __vector_42
+                0x000000000000028a                . = ALIGN (0x2)
+ *(.text.*)
+ .text.setup    0x000000000000028a      0x1ac bin/sd.o
+                0x000000000000028a                setup
+ .text.loop     0x0000000000000436        0x2 bin/sd.o
+                0x0000000000000436                loop
+ .text.startup._GLOBAL__sub_I_card
+                0x0000000000000438       0x46 bin/sd.o
+ .text.twi_transmit
+                0x000000000000047e       0x32 bin/twi.o
+                0x000000000000047e                twi_transmit
+ .text.twi_stop
+                0x00000000000004b0       0x14 bin/twi.o
+                0x00000000000004b0                twi_stop
+ .text.twi_releaseBus
+                0x00000000000004c4        0xc bin/twi.o
+                0x00000000000004c4                twi_releaseBus
+ .text.__vector_36
+                0x00000000000004d0      0x254 bin/twi.o
+                0x00000000000004d0                __vector_36
+ .text._ZN7TwoWire9availableEv
+                0x0000000000000724       0x10 bin/Wire.o
+                0x0000000000000724                _ZN7TwoWire9availableEv
+ .text._ZN7TwoWire4readEv
+                0x0000000000000734       0x26 bin/Wire.o
+                0x0000000000000734                _ZN7TwoWire4readEv
+ .text._ZN7TwoWire4peekEv
+                0x000000000000075a       0x1e bin/Wire.o
+                0x000000000000075a                _ZN7TwoWire4peekEv
+ .text._ZN7TwoWire5flushEv
+                0x0000000000000778        0x2 bin/Wire.o
+                0x0000000000000778                _ZN7TwoWire5flushEv
+ .text._ZN7TwoWire5writeEPKhj
+                0x000000000000077a       0x58 bin/Wire.o
+                0x000000000000077a                _ZN7TwoWire5writeEPKhj
+ .text._ZN7TwoWire5writeEh
+                0x00000000000007d2       0x5c bin/Wire.o
+                0x00000000000007d2                _ZN7TwoWire5writeEh
+ .text._ZN7TwoWireC2Ev
+                0x000000000000082e       0x20 bin/Wire.o
+                0x000000000000082e                _ZN7TwoWireC2Ev
+                0x000000000000082e                _ZN7TwoWireC1Ev
+ .text.startup._GLOBAL__sub_I__ZN7TwoWire8rxBufferE
+                0x000000000000084e        0x6 bin/Wire.o
+ .text.startup._GLOBAL__sub_I__Z20getNextPathComponentPcPjS_
+                0x0000000000000854       0x46 bin/SD.o
+ .text._ZN5Print5writeEPKhj
+                0x000000000000089a       0x50 bin/libcore.a(Print.o)
+                0x000000000000089a                _ZN5Print5writeEPKhj
+ .text._ZN5Print5writeEPKc
+                0x00000000000008ea       0x2c bin/libcore.a(Print.o)
+                0x00000000000008ea                _ZN5Print5writeEPKc
+ .text._ZN5Print5printEPKc
+                0x0000000000000916        0x2 bin/libcore.a(Print.o)
+                0x0000000000000916                _ZN5Print5printEPKc
+ .text._ZN5Print7printlnEv
+                0x0000000000000918        0x6 bin/libcore.a(Print.o)
+                0x0000000000000918                _ZN5Print7printlnEv
+ .text._ZN5Print7printlnEPKc
+                0x000000000000091e       0x20 bin/libcore.a(Print.o)
+                0x000000000000091e                _ZN5Print7printlnEPKc
+ .text._ZN5Print11printNumberEmh
+                0x000000000000093e       0xae bin/libcore.a(Print.o)
+                0x000000000000093e                _ZN5Print11printNumberEmh
+ .text._ZN5Print5printEmi
+                0x00000000000009ec       0x18 bin/libcore.a(Print.o)
+                0x00000000000009ec                _ZN5Print5printEmi
+ .text._ZN5Print7printlnEhi
+                0x0000000000000a04       0x2a bin/libcore.a(Print.o)
+                0x0000000000000a04                _ZN5Print7printlnEhi
+ .text._ZN5Print7printlnEmi
+                0x0000000000000a2e       0x20 bin/libcore.a(Print.o)
+                0x0000000000000a2e                _ZN5Print7printlnEmi
+ .text.initVariant
+                0x0000000000000a4e        0x2 bin/libcore.a(main.o)
+                0x0000000000000a4e                initVariant
+ .text.startup.main
+                0x0000000000000a50       0x1c bin/libcore.a(main.o)
+                0x0000000000000a50                main
+ .text._ZN7Serial_5writeEh
+                0x0000000000000a6c       0x2c bin/libcore.a(CDC.o)
+                0x0000000000000a6c                _ZN7Serial_5writeEh
+ .text._ZN7Serial_4peekEv
+                0x0000000000000a98       0x20 bin/libcore.a(CDC.o)
+                0x0000000000000a98                _ZN7Serial_4peekEv
+ .text._ZN7Serial_5flushEv
+                0x0000000000000ab8        0x4 bin/libcore.a(CDC.o)
+                0x0000000000000ab8                _ZN7Serial_5flushEv
+ .text._ZN7Serial_9availableEv
+                0x0000000000000abc       0x1c bin/libcore.a(CDC.o)
+                0x0000000000000abc                _ZN7Serial_9availableEv
+ .text._ZN7Serial_4readEv
+                0x0000000000000ad8       0x18 bin/libcore.a(CDC.o)
+                0x0000000000000ad8                _ZN7Serial_4readEv
+ .text._ZN7Serial_5writeEPKhj
+                0x0000000000000af0       0x2a bin/libcore.a(CDC.o)
+                0x0000000000000af0                _ZN7Serial_5writeEPKhj
+ .text._Z16CDC_GetInterfacePh
+                0x0000000000000b1a       0x14 bin/libcore.a(CDC.o)
+                0x0000000000000b1a                _Z16CDC_GetInterfacePh
+ .text._Z9CDC_SetupR5Setup
+                0x0000000000000b2e       0xa6 bin/libcore.a(CDC.o)
+                0x0000000000000b2e                _Z9CDC_SetupR5Setup
+ .text._ZN7Serial_5beginEm
+                0x0000000000000bd4        0xc bin/libcore.a(CDC.o)
+                0x0000000000000bd4                _ZN7Serial_5beginEm
+ .text._ZN7Serial_cvbEv
+                0x0000000000000be0       0x1c bin/libcore.a(CDC.o)
+                0x0000000000000be0                _ZN7Serial_cvbEv
+ .text.startup._GLOBAL__sub_I__cdcInterface
+                0x0000000000000bfc       0x3a bin/libcore.a(CDC.o)
+ .text.__vector_23
+                0x0000000000000c36       0x94 bin/libcore.a(wiring.o)
+                0x0000000000000c36                __vector_23
+ .text.micros   0x0000000000000cca       0x46 bin/libcore.a(wiring.o)
+                0x0000000000000cca                micros
+ .text.delay    0x0000000000000d10       0x4a bin/libcore.a(wiring.o)
+                0x0000000000000d10                delay
+ .text.init     0x0000000000000d5a       0xac bin/libcore.a(wiring.o)
+                0x0000000000000d5a                init
+ .text.__empty  0x0000000000000e06        0x2 bin/libcore.a(hooks.o)
+                0x0000000000000e06                yield
+ .text._ZL11SendControlh
+                0x0000000000000e08       0x5c bin/libcore.a(USBCore.o)
+ .text._ZL24USB_SendStringDescriptorPKhh
+                0x0000000000000e64       0x64 bin/libcore.a(USBCore.o)
+ .text._Z4RecvPVhh
+                0x0000000000000ec8       0x1a bin/libcore.a(USBCore.o)
+                0x0000000000000ec8                _Z4RecvPVhh
+ .text._ZN6LockEPC2Eh
+                0x0000000000000ee2       0x10 bin/libcore.a(USBCore.o)
+                0x0000000000000ee2                _ZN6LockEPC1Eh
+                0x0000000000000ee2                _ZN6LockEPC2Eh
+ .text._Z13USB_Availableh
+                0x0000000000000ef2       0x22 bin/libcore.a(USBCore.o)
+                0x0000000000000ef2                _Z13USB_Availableh
+ .text._Z8USB_RecvhPvi
+                0x0000000000000f14       0x8a bin/libcore.a(USBCore.o)
+                0x0000000000000f14                _Z8USB_RecvhPvi
+ .text._Z8USB_Recvh
+                0x0000000000000f9e       0x2c bin/libcore.a(USBCore.o)
+                0x0000000000000f9e                _Z8USB_Recvh
+ .text._Z13USB_SendSpaceh
+                0x0000000000000fca       0x32 bin/libcore.a(USBCore.o)
+                0x0000000000000fca                _Z13USB_SendSpaceh
+ .text._Z8USB_SendhPKvi
+                0x0000000000000ffc      0x11a bin/libcore.a(USBCore.o)
+                0x0000000000000ffc                _Z8USB_SendhPKvi
+ .text._Z11InitControli
+                0x0000000000001116       0x16 bin/libcore.a(USBCore.o)
+                0x0000000000001116                _Z11InitControli
+ .text._Z15USB_SendControlhPKvi
+                0x000000000000112c       0x60 bin/libcore.a(USBCore.o)
+                0x000000000000112c                _Z15USB_SendControlhPKvi
+ .text._Z15USB_RecvControlPvi
+                0x000000000000118c       0x32 bin/libcore.a(USBCore.o)
+                0x000000000000118c                _Z15USB_RecvControlPvi
+ .text._Z14SendInterfacesv
+                0x00000000000011be       0x24 bin/libcore.a(USBCore.o)
+                0x00000000000011be                _Z14SendInterfacesv
+ .text.__vector_11
+                0x00000000000011e2      0x23a bin/libcore.a(USBCore.o)
+                0x00000000000011e2                __vector_11
+ .text._Z9USB_Flushh
+                0x000000000000141c       0x14 bin/libcore.a(USBCore.o)
+                0x000000000000141c                _Z9USB_Flushh
+ .text.__vector_10
+                0x0000000000001430       0xaa bin/libcore.a(USBCore.o)
+                0x0000000000001430                __vector_10
+ .text._ZN10USBDevice_6attachEv
+                0x00000000000014da       0x3a bin/libcore.a(USBCore.o)
+                0x00000000000014da                _ZN10USBDevice_6attachEv
+ .text._ZN9Keyboard_5writeEh
+                0x0000000000001514       0x3c bin/libcore.a(HID.o)
+                0x0000000000001514                _ZN9Keyboard_5writeEh
+ .text._Z16HID_GetInterfacePh
+                0x0000000000001550       0x14 bin/libcore.a(HID.o)
+                0x0000000000001550                _Z16HID_GetInterfacePh
+ .text._Z17HID_GetDescriptori
+                0x0000000000001564        0xc bin/libcore.a(HID.o)
+                0x0000000000001564                _Z17HID_GetDescriptori
+ .text._Z14HID_SendReporthPKvi
+                0x0000000000001570       0x3e bin/libcore.a(HID.o)
+                0x0000000000001570                _Z14HID_SendReporthPKvi
+ .text._Z9HID_SetupR5Setup
+                0x00000000000015ae       0x3a bin/libcore.a(HID.o)
+                0x00000000000015ae                _Z9HID_SetupR5Setup
+ .text._ZN9Keyboard_10sendReportEP9KeyReport
+                0x00000000000015e8        0x8 bin/libcore.a(HID.o)
+                0x00000000000015e8                _ZN9Keyboard_10sendReportEP9KeyReport
+ .text._ZN9Keyboard_5pressEh
+                0x00000000000015f0       0xda bin/libcore.a(HID.o)
+                0x00000000000015f0                _ZN9Keyboard_5pressEh
+ .text._ZN9Keyboard_7releaseEh
+                0x00000000000016ca       0x8e bin/libcore.a(HID.o)
+                0x00000000000016ca                _ZN9Keyboard_7releaseEh
+ .text._ZN9Keyboard_10releaseAllEv
+                0x0000000000001758       0x18 bin/libcore.a(HID.o)
+                0x0000000000001758                _ZN9Keyboard_10releaseAllEv
+ .text.startup._GLOBAL__sub_I_Mouse
+                0x0000000000001770       0x1a bin/libcore.a(HID.o)
+ .text.libgcc.div
+                0x000000000000178a       0x44 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+                0x000000000000178a                __udivmodsi4
+ .text.libgcc   0x00000000000017ce        0xc /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                0x00000000000017ce                __tablejump2__
+                0x00000000000017d2                __tablejump__
+ .text.libgcc.mul
+                0x00000000000017da       0x14 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+                0x00000000000017da                __muluhisi3
+ .text.libgcc.mul
+                0x00000000000017ee       0x1e /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+                0x00000000000017ee                __umulhisi3
+                0x000000000000180c                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000000000000180c        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                0x000000000000180c                exit
+                0x000000000000180c                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000000000000180c        0x4 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000000000001810                _etext = .
+
+.data           0x0000000000800100      0x22a load address 0x0000000000001810
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+ .data          0x0000000000800100        0x0 bin/sd.o
+ .data          0x0000000000800100        0x0 bin/twi.o
+ .data          0x0000000000800100        0x0 bin/Wire.o
+ .data          0x0000000000800100        0x0 bin/SPI.o
+ .data          0x0000000000800100        0x0 bin/SD.o
+ .data          0x0000000000800100        0x0 bin/File.o
+ .data          0x0000000000800100        0x0 bin/libcore.a(wiring_digital.o)
+ .data          0x0000000000800100        0x0 bin/libcore.a(Print.o)
+ .data          0x0000000000800100        0x0 bin/libcore.a(abi.o)
+ .data          0x0000000000800100        0x0 bin/libcore.a(main.o)
+ .data          0x0000000000800100        0x0 bin/libcore.a(CDC.o)
+ .data          0x0000000000800100        0x0 bin/libcore.a(wiring.o)
+ .data          0x0000000000800100        0x0 bin/libcore.a(hooks.o)
+ .data          0x0000000000800100        0x0 bin/libcore.a(USBCore.o)
+ .data          0x0000000000800100        0x0 bin/libcore.a(HID.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(cmpsf2.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fixsfsi.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(floatsisf.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_cmp.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_round.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(gesf2.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(unordsf2.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .data          0x0000000000800100        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .data          0x0000000000800100        0x6 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+                0x0000000000800100                __malloc_heap_end
+                0x0000000000800102                __malloc_heap_start
+                0x0000000000800104                __malloc_margin
+ .data          0x0000000000800106        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(abort.o)
+ .data          0x0000000000800106        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strchr.o)
+ .data          0x0000000000800106        0x0 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strncpy.o)
+ *(.data*)
+ .data._ZL12_usbLineInfo
+                0x0000000000800106        0x8 bin/libcore.a(CDC.o)
+ .data._hid_idle
+                0x000000000080010e        0x1 bin/libcore.a(HID.o)
+                0x000000000080010e                _hid_idle
+ .data._hid_protocol
+                0x000000000080010f        0x1 bin/libcore.a(HID.o)
+                0x000000000080010f                _hid_protocol
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x0000000000800110      0x1dc bin/sd.o
+ .rodata._ZTV7TwoWire
+                0x00000000008002ec       0x10 bin/Wire.o
+                0x00000000008002ec                _ZTV7TwoWire
+ .rodata.str1.1
+                0x00000000008002fc        0xf bin/libcore.a(Print.o)
+                                         0x11 (size before relaxing)
+ .rodata._ZTV7Serial_
+                0x000000000080030b       0x10 bin/libcore.a(CDC.o)
+                0x000000000080030b                _ZTV7Serial_
+ .rodata._ZTV9Keyboard_
+                0x000000000080031b        0xe bin/libcore.a(HID.o)
+                0x000000000080031b                _ZTV9Keyboard_
+ *(.gnu.linkonce.d*)
+                0x000000000080032a                . = ALIGN (0x2)
+ *fill*         0x0000000000800329        0x1 
+                0x000000000080032a                _edata = .
+                0x000000000080032a                PROVIDE (__data_end, .)
+
+.bss            0x000000000080032a      0x1be
+                0x000000000080032a                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.root      0x000000000080032a       0x1d bin/sd.o
+                0x000000000080032a                root
+ .bss.volume    0x0000000000800347       0x1e bin/sd.o
+                0x0000000000800347                volume
+ .bss.card      0x0000000000800365        0xc bin/sd.o
+                0x0000000000800365                card
+ .bss.twi_error
+                0x0000000000800371        0x1 bin/twi.o
+ .bss.twi_rxBufferIndex
+                0x0000000000800372        0x1 bin/twi.o
+ .bss.twi_rxBuffer
+                0x0000000000800373       0x20 bin/twi.o
+ .bss.twi_txBufferLength
+                0x0000000000800393        0x1 bin/twi.o
+ .bss.twi_txBufferIndex
+                0x0000000000800394        0x1 bin/twi.o
+ .bss.twi_txBuffer
+                0x0000000000800395       0x20 bin/twi.o
+ .bss.twi_masterBufferLength
+                0x00000000008003b5        0x1 bin/twi.o
+ .bss.twi_masterBufferIndex
+                0x00000000008003b6        0x1 bin/twi.o
+ .bss.twi_masterBuffer
+                0x00000000008003b7       0x20 bin/twi.o
+ .bss.twi_onSlaveReceive
+                0x00000000008003d7        0x2 bin/twi.o
+ .bss.twi_onSlaveTransmit
+                0x00000000008003d9        0x2 bin/twi.o
+ .bss.twi_inRepStart
+                0x00000000008003db        0x1 bin/twi.o
+ .bss.twi_sendStop
+                0x00000000008003dc        0x1 bin/twi.o
+ .bss.twi_slarw
+                0x00000000008003dd        0x1 bin/twi.o
+ .bss.twi_state
+                0x00000000008003de        0x1 bin/twi.o
+ .bss.Wire      0x00000000008003df        0xc bin/Wire.o
+                0x00000000008003df                Wire
+ .bss._ZN7TwoWire12transmittingE
+                0x00000000008003eb        0x1 bin/Wire.o
+                0x00000000008003eb                _ZN7TwoWire12transmittingE
+ .bss._ZN7TwoWire14txBufferLengthE
+                0x00000000008003ec        0x1 bin/Wire.o
+                0x00000000008003ec                _ZN7TwoWire14txBufferLengthE
+ .bss._ZN7TwoWire13txBufferIndexE
+                0x00000000008003ed        0x1 bin/Wire.o
+                0x00000000008003ed                _ZN7TwoWire13txBufferIndexE
+ .bss._ZN7TwoWire8txBufferE
+                0x00000000008003ee       0x20 bin/Wire.o
+                0x00000000008003ee                _ZN7TwoWire8txBufferE
+ .bss._ZN7TwoWire14rxBufferLengthE
+                0x000000000080040e        0x1 bin/Wire.o
+                0x000000000080040e                _ZN7TwoWire14rxBufferLengthE
+ .bss._ZN7TwoWire13rxBufferIndexE
+                0x000000000080040f        0x1 bin/Wire.o
+                0x000000000080040f                _ZN7TwoWire13rxBufferIndexE
+ .bss._ZN7TwoWire8rxBufferE
+                0x0000000000800410       0x20 bin/Wire.o
+                0x0000000000800410                _ZN7TwoWire8rxBufferE
+ .bss.SD        0x0000000000800430       0x49 bin/SD.o
+                0x0000000000800430                SD
+ .bss.Serial    0x0000000000800479       0x50 bin/libcore.a(CDC.o)
+                0x0000000000800479                Serial
+ .bss.timer0_fract
+                0x00000000008004c9        0x1 bin/libcore.a(wiring.o)
+ .bss.timer0_millis
+                0x00000000008004ca        0x4 bin/libcore.a(wiring.o)
+                0x00000000008004ca                timer0_millis
+ .bss.timer0_overflow_count
+                0x00000000008004ce        0x4 bin/libcore.a(wiring.o)
+                0x00000000008004ce                timer0_overflow_count
+ .bss.USBDevice
+                0x00000000008004d2        0x1 bin/libcore.a(USBCore.o)
+                0x00000000008004d2                USBDevice
+ .bss._cdcComposite
+                0x00000000008004d3        0x1 bin/libcore.a(USBCore.o)
+                0x00000000008004d3                _cdcComposite
+ .bss._cend     0x00000000008004d4        0x2 bin/libcore.a(USBCore.o)
+                0x00000000008004d4                _cend
+ .bss._cmark    0x00000000008004d6        0x2 bin/libcore.a(USBCore.o)
+                0x00000000008004d6                _cmark
+ .bss._usbConfiguration
+                0x00000000008004d8        0x1 bin/libcore.a(USBCore.o)
+                0x00000000008004d8                _usbConfiguration
+ .bss.RxLEDPulse
+                0x00000000008004d9        0x1 bin/libcore.a(USBCore.o)
+                0x00000000008004d9                RxLEDPulse
+ .bss.TxLEDPulse
+                0x00000000008004da        0x1 bin/libcore.a(USBCore.o)
+                0x00000000008004da                TxLEDPulse
+ .bss.Keyboard  0x00000000008004db        0xc bin/libcore.a(HID.o)
+                0x00000000008004db                Keyboard
+ .bss.Mouse     0x00000000008004e7        0x1 bin/libcore.a(HID.o)
+                0x00000000008004e7                Mouse
+ *(COMMON)
+                0x00000000008004e8                PROVIDE (__bss_end, .)
+                0x0000000000001810                __data_load_start = LOADADDR (.data)
+                0x0000000000001a3a                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00000000008004e8        0x0
+                0x00000000008004e8                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00000000008004e8                PROVIDE (__noinit_end, .)
+                0x00000000008004e8                _end = .
+                0x00000000008004e8                PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x0000000000000000     0xa65c
+ *(.stab)
+ .stab          0x0000000000000000     0x1374 bin/sd.o
+ .stab          0x0000000000001374      0x984 bin/twi.o
+                                        0xdbc (size before relaxing)
+ .stab          0x0000000000001cf8      0x93c bin/Wire.o
+                                        0xe70 (size before relaxing)
+ .stab          0x0000000000002634      0x8c4 bin/SPI.o
+                                        0xd5c (size before relaxing)
+ .stab          0x0000000000002ef8     0x10b0 bin/SD.o
+                                       0x1f74 (size before relaxing)
+ .stab          0x0000000000003fa8      0xa2c bin/File.o
+                                       0x17dc (size before relaxing)
+ .stab          0x00000000000049d4      0x378 bin/libcore.a(wiring_digital.o)
+                                        0xb88 (size before relaxing)
+ .stab          0x0000000000004d4c      0xc24 bin/libcore.a(Print.o)
+                                       0x15c0 (size before relaxing)
+ .stab          0x0000000000005970      0x360 bin/libcore.a(abi.o)
+                                        0x3c0 (size before relaxing)
+ .stab          0x0000000000005cd0      0x9d8 bin/libcore.a(main.o)
+                                        0xa08 (size before relaxing)
+ .stab          0x00000000000066a8      0xe40 bin/libcore.a(CDC.o)
+                                        0xea0 (size before relaxing)
+ .stab          0x00000000000074e8      0x720 bin/libcore.a(wiring.o)
+                                        0xaa4 (size before relaxing)
+ .stab          0x0000000000007c08      0x270 bin/libcore.a(hooks.o)
+                                        0x27c (size before relaxing)
+ .stab          0x0000000000007e78     0x1854 bin/libcore.a(USBCore.o)
+                                       0x1b24 (size before relaxing)
+ .stab          0x00000000000096cc      0xf90 bin/libcore.a(HID.o)
+                                       0x12fc (size before relaxing)
+
+.stabstr        0x0000000000000000     0xabfb
+ *(.stabstr)
+ .stabstr       0x0000000000000000     0xabfb bin/sd.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 bin/sd.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 bin/twi.o
+ .comment       0x0000000000000011       0x12 bin/Wire.o
+ .comment       0x0000000000000011       0x12 bin/SPI.o
+ .comment       0x0000000000000011       0x12 bin/SD.o
+ .comment       0x0000000000000011       0x12 bin/File.o
+ .comment       0x0000000000000011       0x12 bin/libcore.a(wiring_digital.o)
+ .comment       0x0000000000000011       0x12 bin/libcore.a(Print.o)
+ .comment       0x0000000000000011       0x12 bin/libcore.a(abi.o)
+ .comment       0x0000000000000011       0x12 bin/libcore.a(main.o)
+ .comment       0x0000000000000011       0x12 bin/libcore.a(CDC.o)
+ .comment       0x0000000000000011       0x12 bin/libcore.a(wiring.o)
+ .comment       0x0000000000000011       0x12 bin/libcore.a(hooks.o)
+ .comment       0x0000000000000011       0x12 bin/libcore.a(USBCore.o)
+ .comment       0x0000000000000011       0x12 bin/libcore.a(HID.o)
+ .comment       0x0000000000000011       0x12 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(bin/sd.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+Keyboard                                          bin/libcore.a(HID.o)
+Mouse                                             bin/libcore.a(HID.o)
+RxLEDPulse                                        bin/libcore.a(USBCore.o)
+SD                                                bin/SD.o
+SPI                                               bin/SPI.o
+STRING_LANGUAGE                                   bin/libcore.a(USBCore.o)
+STRING_MANUFACTURER                               bin/libcore.a(USBCore.o)
+STRING_PRODUCT                                    bin/libcore.a(USBCore.o)
+Serial                                            bin/libcore.a(CDC.o)
+                                                  bin/sd.o
+TxLEDPulse                                        bin/libcore.a(USBCore.o)
+USBDevice                                         bin/libcore.a(USBCore.o)
+                                                  bin/libcore.a(main.o)
+USB_DeviceDescriptor                              bin/libcore.a(USBCore.o)
+USB_DeviceDescriptorA                             bin/libcore.a(USBCore.o)
+Wire                                              bin/Wire.o
+_Z11InitControli                                  bin/libcore.a(USBCore.o)
+_Z12USBConnectedv                                 bin/libcore.a(USBCore.o)
+_Z13USB_Availableh                                bin/libcore.a(USBCore.o)
+                                                  bin/libcore.a(CDC.o)
+_Z13USB_SendSpaceh                                bin/libcore.a(USBCore.o)
+_Z14HID_SendReporthPKvi                           bin/libcore.a(HID.o)
+_Z14SendInterfacesv                               bin/libcore.a(USBCore.o)
+_Z14callback_rmdirR6SdFilePcbPv                   bin/SD.o
+_Z14serialEventRunv                               bin/libcore.a(main.o)
+_Z15USB_RecvControlPvi                            bin/libcore.a(USBCore.o)
+                                                  bin/libcore.a(CDC.o)
+_Z15USB_SendControlhPKvi                          bin/libcore.a(USBCore.o)
+                                                  bin/libcore.a(HID.o)
+                                                  bin/libcore.a(CDC.o)
+_Z15callback_removeR6SdFilePcbPv                  bin/SD.o
+_Z16CDC_GetInterfacePh                            bin/libcore.a(CDC.o)
+                                                  bin/libcore.a(USBCore.o)
+_Z16HID_GetInterfacePh                            bin/libcore.a(HID.o)
+                                                  bin/libcore.a(USBCore.o)
+_Z17HID_GetDescriptori                            bin/libcore.a(HID.o)
+                                                  bin/libcore.a(USBCore.o)
+_Z19USBGetConfigurationv                          bin/libcore.a(USBCore.o)
+_Z19callback_pathExistsR6SdFilePcbPv              bin/SD.o
+_Z20callback_makeDirPathR6SdFilePcbPv             bin/SD.o
+_Z20getNextPathComponentPcPjS_                    bin/SD.o
+_Z4RecvPVhh                                       bin/libcore.a(USBCore.o)
+_Z8USB_Recvh                                      bin/libcore.a(USBCore.o)
+                                                  bin/libcore.a(CDC.o)
+_Z8USB_RecvhPvi                                   bin/libcore.a(USBCore.o)
+_Z8USB_SendhPKvi                                  bin/libcore.a(USBCore.o)
+                                                  bin/libcore.a(HID.o)
+                                                  bin/libcore.a(CDC.o)
+_Z8walkPathPcR6SdFilePFbS1_S_bPvES2_              bin/SD.o
+_Z9CDC_SetupR5Setup                               bin/libcore.a(CDC.o)
+                                                  bin/libcore.a(USBCore.o)
+_Z9HID_SetupR5Setup                               bin/libcore.a(HID.o)
+                                                  bin/libcore.a(USBCore.o)
+_Z9USB_Flushh                                     bin/libcore.a(USBCore.o)
+                                                  bin/libcore.a(CDC.o)
+_ZN10USBDevice_10configuredEv                     bin/libcore.a(USBCore.o)
+_ZN10USBDevice_4pollEv                            bin/libcore.a(USBCore.o)
+_ZN10USBDevice_6attachEv                          bin/libcore.a(USBCore.o)
+                                                  bin/libcore.a(main.o)
+_ZN10USBDevice_6detachEv                          bin/libcore.a(USBCore.o)
+_ZN10USBDevice_C1Ev                               bin/libcore.a(USBCore.o)
+_ZN10USBDevice_C2Ev                               bin/libcore.a(USBCore.o)
+_ZN4File11isDirectoryEv                           bin/File.o
+                                                  bin/SD.o
+_ZN4File12openNextFileEh                          bin/SD.o
+_ZN4File15rewindDirectoryEv                       bin/SD.o
+_ZN4File4nameEv                                   bin/File.o
+_ZN4File4peekEv                                   bin/File.o
+_ZN4File4readEPvj                                 bin/File.o
+_ZN4File4readEv                                   bin/File.o
+_ZN4File4seekEm                                   bin/File.o
+_ZN4File4sizeEv                                   bin/File.o
+_ZN4File5closeEv                                  bin/File.o
+_ZN4File5flushEv                                  bin/File.o
+_ZN4File5writeEPKhj                               bin/File.o
+_ZN4File5writeEh                                  bin/File.o
+_ZN4File8positionEv                               bin/File.o
+_ZN4File9availableEv                              bin/File.o
+_ZN4FileC1E6SdFilePKc                             bin/File.o
+                                                  bin/SD.o
+_ZN4FileC1Ev                                      bin/File.o
+                                                  bin/SD.o
+_ZN4FileC2E6SdFilePKc                             bin/File.o
+_ZN4FileC2Ev                                      bin/File.o
+_ZN4FilecvbEv                                     bin/File.o
+_ZN5Print10printFloatEdh                          bin/libcore.a(Print.o)
+_ZN5Print11printNumberEmh                         bin/libcore.a(Print.o)
+_ZN5Print5printEPK19__FlashStringHelper           bin/libcore.a(Print.o)
+_ZN5Print5printEPKc                               bin/libcore.a(Print.o)
+                                                  bin/sd.o
+_ZN5Print5printERK6String                         bin/libcore.a(Print.o)
+_ZN5Print5printERK9Printable                      bin/libcore.a(Print.o)
+_ZN5Print5printEc                                 bin/libcore.a(Print.o)
+_ZN5Print5printEdi                                bin/libcore.a(Print.o)
+_ZN5Print5printEhi                                bin/libcore.a(Print.o)
+_ZN5Print5printEii                                bin/libcore.a(Print.o)
+_ZN5Print5printEji                                bin/libcore.a(Print.o)
+_ZN5Print5printEli                                bin/libcore.a(Print.o)
+_ZN5Print5printEmi                                bin/libcore.a(Print.o)
+_ZN5Print5writeEPKc                               bin/libcore.a(Print.o)
+_ZN5Print5writeEPKhj                              bin/libcore.a(Print.o)
+                                                  bin/libcore.a(HID.o)
+                                                  bin/File.o
+                                                  bin/Wire.o
+_ZN5Print7printlnEPK19__FlashStringHelper         bin/libcore.a(Print.o)
+_ZN5Print7printlnEPKc                             bin/libcore.a(Print.o)
+                                                  bin/sd.o
+_ZN5Print7printlnERK6String                       bin/libcore.a(Print.o)
+_ZN5Print7printlnERK9Printable                    bin/libcore.a(Print.o)
+_ZN5Print7printlnEc                               bin/libcore.a(Print.o)
+_ZN5Print7printlnEdi                              bin/libcore.a(Print.o)
+_ZN5Print7printlnEhi                              bin/libcore.a(Print.o)
+                                                  bin/sd.o
+_ZN5Print7printlnEii                              bin/libcore.a(Print.o)
+_ZN5Print7printlnEji                              bin/libcore.a(Print.o)
+_ZN5Print7printlnEli                              bin/libcore.a(Print.o)
+_ZN5Print7printlnEmi                              bin/libcore.a(Print.o)
+                                                  bin/sd.o
+_ZN5Print7printlnEv                               bin/libcore.a(Print.o)
+                                                  bin/sd.o
+_ZN6LockEPC1Eh                                    bin/libcore.a(USBCore.o)
+_ZN6LockEPC2Eh                                    bin/libcore.a(USBCore.o)
+_ZN6Mouse_3endEv                                  bin/libcore.a(HID.o)
+_ZN6Mouse_4moveEaaa                               bin/libcore.a(HID.o)
+_ZN6Mouse_5beginEv                                bin/libcore.a(HID.o)
+_ZN6Mouse_5clickEh                                bin/libcore.a(HID.o)
+_ZN6Mouse_5pressEh                                bin/libcore.a(HID.o)
+_ZN6Mouse_7buttonsEh                              bin/libcore.a(HID.o)
+_ZN6Mouse_7releaseEh                              bin/libcore.a(HID.o)
+_ZN6Mouse_9isPressedEh                            bin/libcore.a(HID.o)
+_ZN6Mouse_C1Ev                                    bin/libcore.a(HID.o)
+_ZN6Mouse_C2Ev                                    bin/libcore.a(HID.o)
+_ZN6SdFile2lsEhh                                  bin/sd.o
+_ZN6SdFile4openEPS_PKch                           bin/SD.o
+_ZN6SdFile4readEPvj                               bin/File.o
+_ZN6SdFile4readEv                                 bin/File.o
+_ZN6SdFile4syncEv                                 bin/File.o
+_ZN6SdFile5closeEv                                bin/File.o
+                                                  bin/SD.o
+_ZN6SdFile5rmDirEv                                bin/SD.o
+_ZN6SdFile5writeEPKvj                             bin/File.o
+_ZN6SdFile6removeEPS_PKc                          bin/SD.o
+_ZN6SdFile7dirNameERK14directoryEntryPc           bin/SD.o
+_ZN6SdFile7makeDirEPS_PKc                         bin/SD.o
+_ZN6SdFile7readDirEP14directoryEntry              bin/SD.o
+_ZN6SdFile7seekSetEm                              bin/File.o
+                                                  bin/SD.o
+_ZN6SdFile8openRootEP8SdVolume                    bin/SD.o
+                                                  bin/sd.o
+_ZN6SdFileC1ERKS_                                 bin/SD.o
+_ZN6SdFileC2ERKS_                                 bin/SD.o
+_ZN7SDClass12getParentDirEPKcPi                   bin/SD.o
+_ZN7SDClass4openEPKch                             bin/SD.o
+_ZN7SDClass5beginEh                               bin/SD.o
+_ZN7SDClass5mkdirEPc                              bin/SD.o
+_ZN7SDClass5rmdirEPc                              bin/SD.o
+_ZN7SDClass6existsEPc                             bin/SD.o
+_ZN7SDClass6removeEPc                             bin/SD.o
+_ZN7Sd2Card4initEhh                               bin/SD.o
+                                                  bin/sd.o
+_ZN7Serial_3endEv                                 bin/libcore.a(CDC.o)
+_ZN7Serial_4peekEv                                bin/libcore.a(CDC.o)
+_ZN7Serial_4readEv                                bin/libcore.a(CDC.o)
+_ZN7Serial_5beginEm                               bin/libcore.a(CDC.o)
+                                                  bin/sd.o
+_ZN7Serial_5beginEmh                              bin/libcore.a(CDC.o)
+_ZN7Serial_5flushEv                               bin/libcore.a(CDC.o)
+_ZN7Serial_5writeEPKhj                            bin/libcore.a(CDC.o)
+_ZN7Serial_5writeEh                               bin/libcore.a(CDC.o)
+_ZN7Serial_9availableEv                           bin/libcore.a(CDC.o)
+_ZN7Serial_cvbEv                                  bin/libcore.a(CDC.o)
+                                                  bin/sd.o
+_ZN7TwoWire11requestFromEhh                       bin/Wire.o
+_ZN7TwoWire11requestFromEhhh                      bin/Wire.o
+_ZN7TwoWire11requestFromEii                       bin/Wire.o
+_ZN7TwoWire11requestFromEiii                      bin/Wire.o
+_ZN7TwoWire12transmittingE                        bin/Wire.o
+_ZN7TwoWire13rxBufferIndexE                       bin/Wire.o
+_ZN7TwoWire13txBufferIndexE                       bin/Wire.o
+_ZN7TwoWire14rxBufferLengthE                      bin/Wire.o
+_ZN7TwoWire14txBufferLengthE                      bin/Wire.o
+_ZN7TwoWire14user_onReceiveE                      bin/Wire.o
+_ZN7TwoWire14user_onRequestE                      bin/Wire.o
+_ZN7TwoWire15endTransmissionEh                    bin/Wire.o
+_ZN7TwoWire15endTransmissionEv                    bin/Wire.o
+_ZN7TwoWire16onReceiveServiceEPhi                 bin/Wire.o
+_ZN7TwoWire16onRequestServiceEv                   bin/Wire.o
+_ZN7TwoWire17beginTransmissionEh                  bin/Wire.o
+_ZN7TwoWire17beginTransmissionEi                  bin/Wire.o
+_ZN7TwoWire4peekEv                                bin/Wire.o
+_ZN7TwoWire4readEv                                bin/Wire.o
+_ZN7TwoWire5beginEh                               bin/Wire.o
+_ZN7TwoWire5beginEi                               bin/Wire.o
+_ZN7TwoWire5beginEv                               bin/Wire.o
+_ZN7TwoWire5flushEv                               bin/Wire.o
+_ZN7TwoWire5writeEPKhj                            bin/Wire.o
+_ZN7TwoWire5writeEh                               bin/Wire.o
+_ZN7TwoWire8rxBufferE                             bin/Wire.o
+_ZN7TwoWire8setClockEm                            bin/Wire.o
+_ZN7TwoWire8txBufferE                             bin/Wire.o
+_ZN7TwoWire9availableEv                           bin/Wire.o
+_ZN7TwoWire9onReceiveEPFviE                       bin/Wire.o
+_ZN7TwoWire9onRequestEPFvvE                       bin/Wire.o
+_ZN7TwoWire9txAddressE                            bin/Wire.o
+_ZN7TwoWireC1Ev                                   bin/Wire.o
+_ZN7TwoWireC2Ev                                   bin/Wire.o
+_ZN8SPIClass11initializedE                        bin/SPI.o
+_ZN8SPIClass13interruptMaskE                      bin/SPI.o
+_ZN8SPIClass13interruptModeE                      bin/SPI.o
+_ZN8SPIClass13interruptSaveE                      bin/SPI.o
+_ZN8SPIClass14usingInterruptEh                    bin/SPI.o
+_ZN8SPIClass17notUsingInterruptEh                 bin/SPI.o
+_ZN8SPIClass3endEv                                bin/SPI.o
+_ZN8SPIClass5beginEv                              bin/SPI.o
+_ZN8SdVolume4initEP7Sd2Cardh                      bin/SD.o
+                                                  bin/sd.o
+_ZN9Keyboard_10releaseAllEv                       bin/libcore.a(HID.o)
+_ZN9Keyboard_10sendReportEP9KeyReport             bin/libcore.a(HID.o)
+_ZN9Keyboard_3endEv                               bin/libcore.a(HID.o)
+_ZN9Keyboard_5beginEv                             bin/libcore.a(HID.o)
+_ZN9Keyboard_5pressEh                             bin/libcore.a(HID.o)
+_ZN9Keyboard_5writeEh                             bin/libcore.a(HID.o)
+_ZN9Keyboard_7releaseEh                           bin/libcore.a(HID.o)
+_ZN9Keyboard_C1Ev                                 bin/libcore.a(HID.o)
+_ZN9Keyboard_C2Ev                                 bin/libcore.a(HID.o)
+_ZTV4File                                         bin/File.o
+_ZTV5Print                                        bin/libcore.a(Print.o)
+_ZTV6SdFile                                       bin/SD.o
+                                                  bin/sd.o
+_ZTV6Stream                                       bin/Wire.o
+                                                  bin/File.o
+_ZTV7Serial_                                      bin/libcore.a(CDC.o)
+_ZTV7TwoWire                                      bin/Wire.o
+_ZTV9Keyboard_                                    bin/libcore.a(HID.o)
+__addsf3                                          /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3.o)
+                                                  bin/libcore.a(Print.o)
+__addsf3x                                         /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3.o)
+__bad_interrupt                                   /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__brkval                                          /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+__bss_end                                         /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+__cmpsf2                                          /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__ctors_end                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+__ctors_start                                     /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+__cxa_deleted_virtual                             bin/libcore.a(abi.o)
+__cxa_pure_virtual                                bin/libcore.a(abi.o)
+                                                  bin/libcore.a(Print.o)
+                                                  bin/File.o
+                                                  bin/Wire.o
+__data_end                                        /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+__divsf3                                          /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3.o)
+                                                  bin/libcore.a(Print.o)
+__divsf3_pse                                      /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+__divsf3x                                         /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3.o)
+__do_clear_bss                                    /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  bin/libcore.a(HID.o)
+                                                  bin/libcore.a(USBCore.o)
+                                                  bin/libcore.a(wiring.o)
+                                                  bin/libcore.a(CDC.o)
+                                                  bin/SD.o
+                                                  bin/SPI.o
+                                                  bin/Wire.o
+                                                  bin/twi.o
+                                                  bin/sd.o
+__do_copy_data                                    /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  bin/libcore.a(HID.o)
+                                                  bin/libcore.a(CDC.o)
+                                                  bin/libcore.a(Print.o)
+                                                  bin/File.o
+                                                  bin/SD.o
+                                                  bin/SPI.o
+                                                  bin/Wire.o
+                                                  bin/sd.o
+__do_global_ctors                                 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+                                                  bin/libcore.a(HID.o)
+                                                  bin/libcore.a(CDC.o)
+                                                  bin/SD.o
+                                                  bin/Wire.o
+                                                  bin/sd.o
+__eqsf2                                           /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__fixsfsi                                         /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fixsfsi.o)
+                                                  bin/libcore.a(Print.o)
+__fixunssfsi                                      /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fixsfsi.o)
+                                                  bin/libcore.a(Print.o)
+__floatsisf                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(floatsisf.o)
+                                                  bin/libcore.a(Print.o)
+__floatunsisf                                     /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(floatsisf.o)
+                                                  bin/libcore.a(Print.o)
+__flp                                             /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+__fp_cmp                                          /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_cmp.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(unordsf2.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(gesf2.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__fp_inf                                          /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_inf.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_nan                                          /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_nan.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_pscA                                         /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_pscA.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_pscB                                         /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_pscB.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_round                                        /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_round.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3.o)
+__fp_split3                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_split3.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_splitA                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_split3.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+__fp_szero                                        /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_zero.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fixsfsi.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+__fp_zero                                         /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fp_zero.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3x.o)
+__gesf2                                           /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(gesf2.o)
+__gtsf2                                           /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(gesf2.o)
+                                                  bin/libcore.a(Print.o)
+__heap_end                                        /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+__heap_start                                      /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+__init                                            /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__lesf2                                           /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(cmpsf2.o)
+                                                  bin/libcore.a(Print.o)
+__ltsf2                                           /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(cmpsf2.o)
+                                                  bin/libcore.a(Print.o)
+__malloc_heap_end                                 /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+__malloc_heap_start                               /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+__malloc_margin                                   /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+__mulsf3                                          /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3.o)
+                                                  bin/libcore.a(Print.o)
+__mulsf3_pse                                      /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+__mulsf3x                                         /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(mulsf3.o)
+__muluhisi3                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+                                                  bin/sd.o
+__nesf2                                           /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__stack                                           /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__subsf3                                          /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(addsf3.o)
+                                                  bin/libcore.a(Print.o)
+__tablejump2__                                    /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                                                  bin/libcore.a(wiring_digital.o)
+__tablejump__                                     /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+__udivmodsi4                                      /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+                                                  bin/libcore.a(Print.o)
+                                                  bin/Wire.o
+__umulhisi3                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+__unordsf2                                        /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a(unordsf2.o)
+                                                  bin/libcore.a(Print.o)
+__vector_1                                        /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_10                                       bin/libcore.a(USBCore.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_11                                       bin/libcore.a(USBCore.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_12                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_13                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_14                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_15                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_16                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_17                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_18                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_19                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_2                                        /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_20                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_21                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_22                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_23                                       bin/libcore.a(wiring.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_24                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_25                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_26                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_27                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_28                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_29                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_3                                        /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_30                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_31                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_32                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_33                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_34                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_35                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_36                                       bin/twi.o
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_37                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_38                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_39                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_4                                        /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_40                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_41                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_42                                       /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_5                                        /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_6                                        /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_7                                        /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_8                                        /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_9                                        /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_default                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vectors                                         /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+_asciimap                                         bin/libcore.a(HID.o)
+_cdcComposite                                     bin/libcore.a(USBCore.o)
+_cdcInterface                                     bin/libcore.a(CDC.o)
+_cend                                             bin/libcore.a(USBCore.o)
+_cmark                                            bin/libcore.a(USBCore.o)
+_exit                                             /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(abort.o)
+_hidInterface                                     bin/libcore.a(HID.o)
+_hidReportDescriptor                              bin/libcore.a(HID.o)
+_hid_idle                                         bin/libcore.a(HID.o)
+_hid_protocol                                     bin/libcore.a(HID.o)
+_initEndpoints                                    bin/libcore.a(USBCore.o)
+_usbConfiguration                                 bin/libcore.a(USBCore.o)
+abort                                             /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(abort.o)
+                                                  bin/libcore.a(abi.o)
+analog_pin_to_channel_PGM                         bin/libcore.a(wiring_digital.o)
+atexit                                            bin/libcore.a(main.o)
+card                                              bin/sd.o
+delay                                             bin/libcore.a(wiring.o)
+                                                  bin/libcore.a(USBCore.o)
+                                                  bin/libcore.a(CDC.o)
+delayMicroseconds                                 bin/libcore.a(wiring.o)
+digitalRead                                       bin/libcore.a(wiring_digital.o)
+digitalWrite                                      bin/libcore.a(wiring_digital.o)
+                                                  bin/SPI.o
+                                                  bin/twi.o
+digital_pin_to_bit_mask_PGM                       bin/libcore.a(wiring_digital.o)
+                                                  bin/SPI.o
+digital_pin_to_port_PGM                           bin/libcore.a(wiring_digital.o)
+                                                  bin/SPI.o
+digital_pin_to_timer_PGM                          bin/libcore.a(wiring_digital.o)
+exit                                              /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+free                                              /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  bin/File.o
+init                                              bin/libcore.a(wiring.o)
+                                                  bin/libcore.a(main.o)
+initVariant                                       bin/libcore.a(main.o)
+loop                                              bin/sd.o
+                                                  bin/libcore.a(main.o)
+main                                              bin/libcore.a(main.o)
+                                                  /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+malloc                                            /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  bin/File.o
+micros                                            bin/libcore.a(wiring.o)
+millis                                            bin/libcore.a(wiring.o)
+pinMode                                           bin/libcore.a(wiring_digital.o)
+                                                  bin/SPI.o
+port_to_input_PGM                                 bin/libcore.a(wiring_digital.o)
+port_to_mode_PGM                                  bin/libcore.a(wiring_digital.o)
+                                                  bin/SPI.o
+port_to_output_PGM                                bin/libcore.a(wiring_digital.o)
+root                                              bin/sd.o
+setup                                             bin/sd.o
+                                                  bin/libcore.a(main.o)
+strchr                                            /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strchr.o)
+                                                  bin/SD.o
+strncpy                                           /usr/share/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strncpy.o)
+                                                  bin/File.o
+                                                  bin/SD.o
+timer0_millis                                     bin/libcore.a(wiring.o)
+timer0_overflow_count                             bin/libcore.a(wiring.o)
+twi_attachSlaveRxEvent                            bin/twi.o
+                                                  bin/Wire.o
+twi_attachSlaveTxEvent                            bin/twi.o
+                                                  bin/Wire.o
+twi_init                                          bin/twi.o
+                                                  bin/Wire.o
+twi_readFrom                                      bin/twi.o
+                                                  bin/Wire.o
+twi_releaseBus                                    bin/twi.o
+twi_reply                                         bin/twi.o
+twi_setAddress                                    bin/twi.o
+                                                  bin/Wire.o
+twi_stop                                          bin/twi.o
+twi_transmit                                      bin/twi.o
+                                                  bin/Wire.o
+twi_writeTo                                       bin/twi.o
+                                                  bin/Wire.o
+volume                                            bin/sd.o
+yield                                             bin/libcore.a(hooks.o)
+                                                  bin/libcore.a(wiring.o)

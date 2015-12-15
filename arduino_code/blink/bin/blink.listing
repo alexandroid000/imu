@@ -1,0 +1,128 @@
+
+bin/blink.o:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn  Flags
+  0 .text         00000000  00000000  00000000  00000034  2**0  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  00000034  2**0  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  00000034  2**0  ALLOC
+  3 .stab         00000a44  00000000  00000000  00000034  2**2  CONTENTS, RELOC, READONLY, DEBUGGING
+  4 .stabstr      00001ec3  00000000  00000000  00000a78  2**0  CONTENTS, READONLY, DEBUGGING
+  5 .text.setup   0000002c  00000000  00000000  0000293b  2**0  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .rodata.str1.1 0000001b  00000000  00000000  00002967  2**0  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  7 .text.loop    00000050  00000000  00000000  00002982  2**0  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .data.RXLED   00000002  00000000  00000000  000029d2  2**0  CONTENTS, ALLOC, LOAD, DATA
+  9 .comment      00000012  00000000  00000000  000029d4  2**0  CONTENTS, READONLY
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 blink.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.setup	00000000 .text.setup
+00000000 l    d  .rodata.str1.1	00000000 .rodata.str1.1
+00000000 l    d  .text.loop	00000000 .text.loop
+00000000 l    d  .data.RXLED	00000000 .data.RXLED
+00000000 l    d  .stab	00000000 .stab
+00000000 l    d  .stabstr	00000000 .stabstr
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.setup	0000002c setup
+00000000 g     O .data.RXLED	00000002 RXLED
+00000000         *UND*	00000000 pinMode
+00000000         *UND*	00000000 Serial
+00000000         *UND*	00000000 Serial_::begin(unsigned long)
+00000000         *UND*	00000000 Serial1
+00000000         *UND*	00000000 HardwareSerial::begin(unsigned long, unsigned char)
+00000000 g     F .text.loop	00000050 loop
+00000000         *UND*	00000000 Print::println(char const*)
+00000000         *UND*	00000000 digitalWrite
+00000000         *UND*	00000000 delay
+00000000         *UND*	00000000 __do_copy_data
+
+
+
+Disassembly of section .text.setup:
+
+00000000 <setup>:
+loop():
+bin/blink.cpp:33
+ Serial.begin(9600); //This pipes to the serial monitor
+ Serial1.begin(9600); //This is the UART, pipes to sensors attached to board
+}
+
+void loop()
+{
+   0:	61 e0       	ldi	r22, 0x01	; 1
+   2:	80 91 00 00 	lds	r24, 0x0000
+bin/blink.cpp:34
+ Serial.println("makefile says hello");  // Print "Hello World" to the Serial Monitor
+   6:	0e 94 00 00 	call	0	; 0x0 <setup>
+   a:	40 e8       	ldi	r20, 0x80	; 128
+   c:	55 e2       	ldi	r21, 0x25	; 37
+   e:	60 e0       	ldi	r22, 0x00	; 0
+bin/blink.cpp:35
+ Serial1.println("Hello!");  // Print "Hello!" over hardware UART
+  10:	70 e0       	ldi	r23, 0x00	; 0
+  12:	80 e0       	ldi	r24, 0x00	; 0
+  14:	90 e0       	ldi	r25, 0x00	; 0
+  16:	0e 94 00 00 	call	0	; 0x0 <setup>
+  1a:	26 e0       	ldi	r18, 0x06	; 6
+bin/blink.cpp:37
+
+ digitalWrite(RXLED, LOW);   // set the LED on
+  1c:	40 e8       	ldi	r20, 0x80	; 128
+  1e:	55 e2       	ldi	r21, 0x25	; 37
+  20:	60 e0       	ldi	r22, 0x00	; 0
+  22:	70 e0       	ldi	r23, 0x00	; 0
+  24:	80 e0       	ldi	r24, 0x00	; 0
+  26:	90 e0       	ldi	r25, 0x00	; 0
+bin/blink.cpp:38
+ TXLED0; //TX LED is not tied to a normally controlled pin
+  28:	0c 94 00 00 	jmp	0	; 0x0 <setup>
+
+Disassembly of section .text.loop:
+
+00000073 <loop>:
+bin/blink.cpp:42
+ delay(1000);              // wait for a second
+ digitalWrite(RXLED, HIGH);    // set the LED off
+ TXLED1;
+ delay(1000);              // wait for a second
+  73:	cf 93       	push	r28
+  75:	df 93       	push	r29
+  77:	60 e0       	ldi	r22, 0x00	; 0
+  79:	70 e0       	ldi	r23, 0x00	; 0
+  7b:	80 e0       	ldi	r24, 0x00	; 0
+  7d:	90 e0       	ldi	r25, 0x00	; 0
+  7f:	0e 94 00 00 	call	0	; 0x0 <__tmp_reg__>
+  83:	60 e0       	ldi	r22, 0x00	; 0
+  85:	70 e0       	ldi	r23, 0x00	; 0
+  87:	80 e0       	ldi	r24, 0x00	; 0
+  89:	90 e0       	ldi	r25, 0x00	; 0
+  8b:	0e 94 00 00 	call	0	; 0x0 <__tmp_reg__>
+  8f:	c0 e0       	ldi	r28, 0x00	; 0
+  91:	d0 e0       	ldi	r29, 0x00	; 0
+  93:	60 e0       	ldi	r22, 0x00	; 0
+  95:	88 81       	ld	r24, Y
+  97:	0e 94 00 00 	call	0	; 0x0 <__tmp_reg__>
+  9b:	5d 9a       	sbi	0x0b, 5	; 11
+  9d:	68 ee       	ldi	r22, 0xE8	; 232
+  9f:	73 e0       	ldi	r23, 0x03	; 3
+  a1:	80 e0       	ldi	r24, 0x00	; 0
+  a3:	90 e0       	ldi	r25, 0x00	; 0
+  a5:	0e 94 00 00 	call	0	; 0x0 <__tmp_reg__>
+  a9:	61 e0       	ldi	r22, 0x01	; 1
+  ab:	88 81       	ld	r24, Y
+  ad:	0e 94 00 00 	call	0	; 0x0 <__tmp_reg__>
+  b1:	5d 98       	cbi	0x0b, 5	; 11
+  b3:	68 ee       	ldi	r22, 0xE8	; 232
+  b5:	73 e0       	ldi	r23, 0x03	; 3
+  b7:	80 e0       	ldi	r24, 0x00	; 0
+  b9:	90 e0       	ldi	r25, 0x00	; 0
+  bb:	df 91       	pop	r29
+  bd:	cf 91       	pop	r28
+  bf:	0c 94 00 00 	jmp	0	; 0x0 <__tmp_reg__>
