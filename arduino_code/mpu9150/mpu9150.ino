@@ -72,8 +72,9 @@ const int window_size = 1;
 unsigned long time;
 
 // create buffer for reading/writing data
-// 9*16 bits currently, 512 max
-uint16_t data[9];
+// 7*16 bits currently, 512 max
+uint16_t data[7];
+uint16_t one = 1;
 
 void setup() {
     // join I2C bus (I2Cdev library doesn't do this automatically)
@@ -107,14 +108,14 @@ void setup() {
 
 void loop(void) {
 
-    for (uint16_t i = 0; i < 13; i++) {
+    for (uint16_t i = 0; i < 7; i++) {
         data[i] = 0;
     }
 
     // record time data collection begins
     // bitshift 32-bit time (means 65 second-max data collection until rollover)
     time = millis();
-    data[0] = ((time >> 16) & (uint16_t)1);
+    data[0] = time;
 
     // read raw accel/gyro measurements from device
     // getMotion6 returns int16_t values
@@ -139,8 +140,6 @@ void loop(void) {
     data[4] = data[4]/window_size;
     data[5] = data[5]/window_size;
     data[6] = data[6]/window_size;
-    data[7] = '\r';
-    data[8] = '\n';
 
     // open the file. note that only one file can be open at a time,
     // so you have to close this one before opening another.
