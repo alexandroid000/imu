@@ -43,6 +43,7 @@ THE SOFTWARE.
 #include <SPI.h>
 #include "SdFat.h"
 SdFat SD;
+SdFile myFile;
 
 // Arduino Wire library is required if I2Cdev I2CDEV_ARDUINO_WIRE implementation
 // is used in I2Cdev.h
@@ -63,13 +64,16 @@ int16_t ax_avg, ay_avg, az_avg;
 int16_t gx, gy, gz;
 int16_t gx_avg, gy_avg, gz_avg;
 
-File myFile;
 
 const int chipSelect = 10;
 
 int i;
 const int window_size = 1;
 unsigned long time;
+
+// create buffer for reading/writing data
+// 9*16 bits currently, 512 max
+uint16_t data[9];
 
 void setup() {
     // join I2C bus (I2Cdev library doesn't do this automatically)
@@ -103,51 +107,47 @@ void setup() {
 
 void loop(void) {
 
-    ax_avg = 0;
-    ay_avg = 0;
-    az_avg = 0;
-    gx_avg = 0;
-    gy_avg = 0;
-    gz_avg = 0;
+    for (uint16_t i = 0; i < 13; i++) {
+        data[i] = 0;
+    }
 
+    // record time data collection begins
+    // bitshift 32-bit time (means 65 second-max data collection until rollover)
     time = millis();
+    data[0] = ((time >> 16) & (uint16_t)1);
 
     // read raw accel/gyro measurements from device
+    // getMotion6 returns int16_t values
     for (i = 0; i < window_size; i++) {
+
         accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
-        ax_avg += ax;
-        ay_avg += ay;
-        az_avg += az;
-        gx_avg += gx;
-        gy_avg += gy;
-        gz_avg += gz;
+        data[1] += ax;
+        data[2] += ay;
+        data[3] += az;
+        data[4] += gx;
+        data[5] += gy;
+        data[6] += gz;
     }
 
     // straight up average over window
     // could make adaptive window size - don't average high delta data
-    ax_avg = ax_avg/window_size;
-    ay_avg = ay_avg/window_size;
-    az_avg = az_avg/window_size;
-    gx_avg = gx_avg/window_size;
-    gy_avg = gy_avg/window_size;
-    gz_avg = gz_avg/window_size;
+
+    // tab-separated accel/gyro x/y/z values
+    data[1] = data[1]/window_size;
+    data[2] = data[2]/window_size;
+    data[3] = data[3]/window_size;
+    data[4] = data[4]/window_size;
+    data[5] = data[5]/window_size;
+    data[6] = data[6]/window_size;
+    data[7] = '\r';
+    data[8] = '\n';
 
     // open the file. note that only one file can be open at a time,
     // so you have to close this one before opening another.
-    myFile = SD.open("data.txt", O_CREAT | O_WRITE | O_APPEND);
 
     // if the file opened okay, write to it:
-    if (myFile) {
-
-        // tab-separated accel/gyro x/y/z values
-        myFile.print(time); myFile.print("\t");
-        myFile.print(ax_avg); myFile.print("\t");
-        myFile.print(ay_avg); myFile.print("\t");
-        myFile.print(az_avg); myFile.print("\t");
-        myFile.print(gx_avg); myFile.print("\t");
-        myFile.print(gy_avg); myFile.print("\t");
-        myFile.println(gz_avg); myFile.print("\t");
-        // close the file:
+    if (myFile.open("data.txt", O_CREAT | O_WRITE | O_APPEND)) {
+        myFile.write(data, sizeof(data));
     }
 
     myFile.close();
