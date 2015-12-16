@@ -20,4 +20,4 @@ path_gen
 Hardware
 ========
 
-
+See [hardware list](hardware_list.md)
