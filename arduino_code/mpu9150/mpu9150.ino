@@ -103,6 +103,9 @@ void setup() {
         return;
     }
 
+    if (!myFile.open("data.txt", O_CREAT | O_WRITE | O_APPEND)) {
+        return;
+    }
 
 }
 
@@ -144,11 +147,7 @@ void loop(void) {
     // open the file. note that only one file can be open at a time,
     // so you have to close this one before opening another.
 
-    // if the file opened okay, write to it:
-    if (myFile.open("data.txt", O_CREAT | O_WRITE | O_APPEND)) {
-        myFile.write(data, sizeof(data));
-    }
-
-    myFile.close();
+    myFile.write(data, sizeof(data));
+    myFile.sync();
 
 }

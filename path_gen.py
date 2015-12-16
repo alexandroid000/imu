@@ -7,7 +7,7 @@ from scipy.signal import firwin, lfilter
 
 gyr_s = 65.5
 acc_s = 2048
-sample_rate = 1000
+s_rate = 100
 
 def import_imu(fname, time=True):
 
@@ -46,7 +46,7 @@ def euler(v, dt, x0=0):
 
     return x
 
-def fir_filter(dat, cutoff, sample_rate=1000):
+def fir_filter(dat, cutoff, sample_rate=s_rate):
 
     N = len(dat)
     nyq = sample_rate/2.0
@@ -67,13 +67,13 @@ def fft_filter(dat, cutoff):
 def plot_dat(dat, x=[], offset=0, linestyle='o'):
 
     if x == []:
-        x = linspace(0, len(dat)*(1/sample_rate), len(dat))
+        x = linspace(0, len(dat)*(1/s_rate), len(dat))
     else:
         x = array(x)
 
     plt.plot(x-offset, dat, linestyle, linewidth=2)
 
-def filt_plot(t, dat, cutoff, filter=fft_filter, sample_rate=1000):
+def filt_plot(t, dat, cutoff, filter=fft_filter, sample_rate=s_rate):
 
     fdat = filter(dat, cutoff)
 
