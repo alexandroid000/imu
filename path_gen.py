@@ -5,6 +5,9 @@ from numpy import linspace, fft, array
 import matplotlib.pyplot as plt
 from scipy.signal import firwin, lfilter
 
+# quaternion math library, by me
+import quaternions as q
+
 gyr_s = 65.5
 acc_s = 2048
 s_rate = 100
@@ -35,6 +38,32 @@ def get_axis(dat, sensitivity):
     y = [line[1]/sensitivity for line in dat]
     z = [line[2]/sensitivity for line in dat]
     return x,y,z
+
+# gyr_data is a list of x,y,z readings from IMU
+def rot_int(ts, gyr_data):
+
+    heading = [[0,0,0,0]]*(len(gyr_data)-1)
+
+# how to determine intial heading?
+    heading[0] = [0, gyr_data[0][0], gyr_data[0][1], gyr_data[0][2]]
+
+    dts = [t1-t0 for (t0,t1) in zip(ts, ts[1:])]
+
+    qs_imu_frame = []*len(dts)
+    qs_imu_frame[0] = [0, gyr_data[0][0], gyr_data[0][1], gyr_data[0][2]]
+
+# square roots are inefficient!
+    for (dt,dat) in zip(dts,gyr_data[1:]):
+        w_mag = math.sqrt(sum([g*g for g in gyr_data]))
+
+# construct quaternion using "infinitesimal" rotation
+        q_delta = q.mkq(dt*w_mag, dat[0]/w_mag, dat[1]/w_mag, dat[2]/w_mag)
+
+
+
+
+
+
 
 def euler(v, dt, x0=0):
 
