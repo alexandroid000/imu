@@ -42,25 +42,33 @@ def get_axis(dat, sensitivity):
 # gyr_data is a list of x,y,z readings from IMU
 def rot_int(ts, gyr_data):
 
-    heading = [[0,0,0,0]]*(len(gyr_data)-1)
+    # list of quaternions - great opportunity for lazy evaluation >:(
+    heading     = [0]*(len(gyr_data)-1)
+    rotating_qs = [0]*(len(gyr_data)-1)
 
-# how to determine intial heading?
-    heading[0] = [0, gyr_data[0][0], gyr_data[0][1], gyr_data[0][2]]
+# initial heading - set to "up" arbitrarily
+# could calibrate with gravity vector
+# h = 0 + xi + yj + zk
+    heading[0] = (0, 0, 0, 1)
 
-    dts = [t1-t0 for (t0,t1) in zip(ts, ts[1:])]
-
-    qs_imu_frame = []*len(dts)
-    qs_imu_frame[0] = [0, gyr_data[0][0], gyr_data[0][1], gyr_data[0][2]]
 
 # square roots are inefficient!
-    for (dt,dat) in zip(dts,gyr_data[1:]):
-        w_mag = math.sqrt(sum([g*g for g in gyr_data]))
+    for i in range(len(gyr_data)):
 
-# construct quaternion using "infinitesimal" rotation
-        q_delta = q.mkq(dt*w_mag, dat[0]/w_mag, dat[1]/w_mag, dat[2]/w_mag)
+        dat = gyr_data[i]
+
+        w_mag = math.sqrt(sum([g*g for g in dat]))
+
+        # construct quaternion using "infinitesimal" rotation
+        q_meas = q.mkq(dt*w_mag, dat[0]/w_mag, dat[1]/w_mag, dat[2]/w_mag)
+        q_axis = q.mkq(0, dat[0]/w_mag, dat[1]/w_mag, dat[2]/w_mag)
+
+        q_lab = q.qmult(q.conj(heading[i-1]), q_
+        rotating_qs[i] = q.qmult(rotating_qs[i-1], q_meas)
 
 
 
+        heading
 
 
 
