@@ -43,6 +43,10 @@ board](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro8MHzv1.pdf
 Warning, there are different versions of this board out there so stick with this
 datasheet.
 
+I use [this makefile] (https://github.com/sudar/Arduino-Makefile) for to compile
+and upload Arduino programs, instead of the IDE, but that is personal
+preference.
+
 ### SD Card
 
 Next we'll need to set up our microcontroller to read and write from an SD card.
@@ -53,19 +57,42 @@ read/write functionality, as opposed to the SD library which writes strings.
 Clone that repo and put the "SdFat" directory in your `~/Arduino/libraries/`
 folder. The `html` folder contains nice documentation for this library.
 
-The SD card uses the I2C protocol to communicate with the microcontroller. This
-is why we will have to include the `Wire` library in our Arduino code.
+The SD card uses the SPI protocol to communicate with the microcontroller.
+[Blog on how SPI
+works](http://nerdclub-uk.blogspot.com/2012/11/how-spi-works-with-sd-card.html),
+if you're curious.
 
-Wiring the SD card reader and Arduino:
+Connect these pins on the SD card reader and Arduino:
 
- SD   |   Arduino
-----  |  ---------
-GND   |   GND
-VCC   |   VCC
-SDA   |   2
-SCL   |   3
-DO    |   14
-DI    |   16
+ SD             |   Arduino
+----            |  ---------
+GND             |   GND
+VCC             |   VCC
+SCK (clock)     |   15
+DO (digital out)|   14
+DI (digital in) |   16
+
+There are example programs in the SdFat library. Try running
+`ReadWriteSdFat.ino`, located in `SdFat/examples/ReadWriteSdFat/`. You will have
+to change the first line of that program to `const int chipSelect = 10;`, as
+this is chip specific. TODO: Edit this wiki with any other changes you have to
+make to get it working.
+
+### IMU
+
+Connect these pins on the IMU and Arduino:
+
+ IMU   |   Arduino
+-----  |  ---------
+GND    |   GND
+VCC    |   VCC
+SDA    |   2
+SCL    |   3
+
+The communication protocol between these is I2C. We'll use the `i2cdevlib`
+library, found [here](http://github.com/jrowberg/i2cdevlib). Clone and put in
+your Arduino libraries folder. This uses the Arduino `Wire` library so we'll
+have to include both libraries in our code.
 
 Usage
 =====
