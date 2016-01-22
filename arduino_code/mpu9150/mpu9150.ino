@@ -30,10 +30,11 @@ const int chipSelect = 10;
 
 int i;
 unsigned long time;
+unsigned long prev_time = 0;
 
 // create buffer for reading/writing data
 // 2*buf_size bytes currently, 512 max
-// each set of data is seven 16-bit floating-point numbers (time + gyr + acc)
+// each data point is seven 16-bit numbers (time + 3 gyr + 3 acc)
 const size_t buf_size = 252;
 uint16_t data[buf_size];
 
@@ -71,6 +72,7 @@ void setup() {
     for (i = 0; i < buf_size; i++) {
         data[i] = 0;
     }
+
 }
 
 void loop(void) {
@@ -80,17 +82,22 @@ void loop(void) {
     for (i = 0; i < buf_size; i=i+7) {
 
         // record time data collection begins
-        // time is 32-bits (means 65 second max data collection until rollover)
+        // time is 32-bits, but we're only keeping 16
         time = millis();
-        data[i] = time;
-
-        accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
-        data[i+1] = ax;
-        data[i+2] = ay;
-        data[i+3] = az;
-        data[i+4] = gx;
-        data[i+5] = gy;
-        data[i+6] = gz;
+        if (time == prev_time) {
+            i = i - 7;
+        }
+        else {
+            data[i] = time;
+            prev_time = time;
+            accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
+            data[i+1] = ax;
+            data[i+2] = ay;
+            data[i+3] = az;
+            data[i+4] = gx;
+            data[i+5] = gy;
+            data[i+6] = gz;
+        }
     }
 
     myFile.write(data, sizeof(data));
