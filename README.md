@@ -14,7 +14,7 @@ Hardware
 This guide is written for the MPU9150 IMU, with an Arduino Pro Micro
 microcontroller.
 
-See  for more details. You will need:
+Things you will need:
 
 -   the hardware in [this list](hardware_list.md)
 -   [Arduino software](https://www.arduino.cc/)
@@ -58,14 +58,14 @@ is why we will have to include the `Wire` library in our Arduino code.
 
 Wiring the SD card reader and Arduino:
 
- SD  |   Arduino
-----    ---------
-GND      GND
-VCC      VCC
-SDA      2
-SCL      3
-DO       14
-DI       16
+ SD   |   Arduino
+----  |  ---------
+GND   |   GND
+VCC   |   VCC
+SDA   |   2
+SCL   |   3
+DO    |   14
+DI    |   16
 
 Usage
 =====
