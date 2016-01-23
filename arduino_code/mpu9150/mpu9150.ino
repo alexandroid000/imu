@@ -39,6 +39,7 @@ const size_t buf_size = 252;
 uint16_t data[buf_size];
 
 
+// initialize SD card and IMU
 void setup() {
     // join I2C bus (I2Cdev library doesn't do this automatically)
     Wire.begin();

@@ -33,7 +33,8 @@ but all of ours use 3.3V, so we can power the microcontroller from a battery
 (possibly providing more than 3.3V), and use the onboard voltage regulator to
 guarantee that power to all our other devices will be at the required 3.3V.
 
-[Read this Pro Micro Hookup Guide](https://www.sparkfun.com/products/10718).
+[Read this Pro Micro Hookup
+Guide](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide).
 Ignore the stuff about the Fio. It will walk you through setting up your
 software environment (an extra library is necessary for the Pro Micro). Follow
 the steps through Example 1, "Blinkies!".
@@ -89,21 +90,56 @@ VCC    |   VCC
 SDA    |   2
 SCL    |   3
 
-The communication protocol between these is I2C. We'll use the `i2cdevlib`
+The communication protocol between these is I2C. It uses the `i2cdevlib`
 library, found [here](http://github.com/jrowberg/i2cdevlib). Clone and put in
 your Arduino libraries folder. This uses the Arduino `Wire` library so we'll
 have to include both libraries in our code.
 
-Usage
-=====
+The stuff we need is in `i2cdevlib/Arduino/MPU9150`. You can look around in the
+`i2cdevlib` library at all the other devices that are supported. Many sensors
+use I2C so this is a nice interface.
 
--   compile and upload `arduino_code/mpu9150/mpu9150.ino`
-    -   I use [this makefile] (https://github.com/sudar/Arduino-Makefile) for
-        Arduino
--   run `binary_to_str.py data.txt` where `data.txt` is the binary data file
-    written by the arduino to SD card
--   run functions in `path_gen.py` to plot IMU data and run low-pass filter
+Now, take a look at the file `arduino_code/mpu9150.ino` in this repo. The file
+imports the relevant libraries at the top, and initializes the SD card
+reader/writer and the IMU in the `setup` function. Luckily we have really high
+level functions for this. If you want to change the data collection resolution
+of the IMU, you will have to edit the `initialize` function in the file
+`MPU9150.cpp` in the same `arduino_code` folder.
 
-path_gen
-========
+If you compile and upload this file to the Arduino, with an SD card in the
+reader, it should collect data from the MPU9150 and write it to the SD card.
 
+It writes binary data to the SD card which needs to be unpacked. The
+`binary_to_str.py` file in this repo will do that for you. Just run it from the
+command line with the name of the data file as the first and only argument.
+
+The data file should then contain lines with 7 space separated values. The first
+value is the timestamp (in milliseconds since the program started) of data
+collection. The next three numbers are the accelerometer measurements in the x,
+y, and z directions, and the next three numbers are the gyrometer measurements
+around the x, y and z axis.
+
+These numbers have no units. According to the [MPU9150
+datasheet](https://cdn.sparkfun.com/datasheets/Sensors/IMU/MPU-9150-Datasheet.pdf),
+the accelerometer and gyrometer data are recorded as 16 bit binary numbers,
+which must be scaled by the sensitivity scale factor provided in the datasheet
+for each range setting. Check out `path_gen.md` for how that is done and other
+useful things to do with the data.
+
+Good luck!
+
+### Troubleshooting
+
+-   put troubleshooting tips here
+
+
+### Arduino Interface
+
+-   Arduino makes an IDE that will handle libraries, compiling and uploading
+    programs to the board. It's fine but kind of buggy and written in Java.
+    Also, I prefer using one text editor for everything.
+-   I use [this makefile] (https://github.com/sudar/Arduino-Makefile) for
+    Arduino. [There is a tutorial here]
+    (http://hardwarefun.com/tutorials/compiling-arduino-sketches-using-makefile)
+    on how to use it. It's pretty straightforward and makes using Arduino a lot
+    less painful.
