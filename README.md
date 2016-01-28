@@ -14,7 +14,7 @@ microcontroller.
 Things you will need:
 
 -   the hardware in [this list](hardware_list.md)
--   [Arduino software](https://www.arduino.cc/)
+-   [Arduino software](https://www.arduino.cc/en/Main/Software)
 -   A USB-to-microUSB cable
 -   wires, wirecutters, breadboard, and/or soldering iron
 -   It will be helpful to have clamps and tweezers for soldering.

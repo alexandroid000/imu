@@ -10,10 +10,11 @@ IMU
   cheaper boards out there that would be better suited for this project, but the
   MPU9150 has lots of documentation online so it's the one I tried first.
 
-SD Card
--------
+SD Card Reader/Writer
+---------------------
 
 - [source ($10)](https://www.sparkfun.com/products/544)
+- this is just the reader/writer, you will also need a microSD card
 
 Microcontroller
 ---------------
