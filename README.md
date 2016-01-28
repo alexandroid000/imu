@@ -2,9 +2,6 @@
 title: IMU Setup Guide
 ...
 
-Do You Want to Build a IMU?
----------------------------
-
 This is a guide to creating a stand-alone, battery-powered IMU unit. It details
 how to set up a microcontroller to read and log data to an SD card.
 
