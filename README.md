@@ -128,6 +128,7 @@ Good luck!
 ### Troubleshooting
 
 -   If you are having difficulty opening Arduino on your computer, check to see if your anti-virius software is blocking it
+-   Pro tip: don't do this on Windows
 
 
 ### Arduino Interface
