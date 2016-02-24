@@ -235,6 +235,20 @@ def data_to_heading(fname, plot=False, units=True):
             file.write(str(h))
             file.write('\n')
 
+def format_data(fname, units=True):
+
+    ts, acc, gyr = import_imu(fname, units)
+
+    dts = [t1-t0 for (t0, t1) in zip(ts, ts[1:])]
+
+    gyr_data = [[dt]+g for (dt,g) in zip(dts, gyr)]
+
+    with open(fname+"_data",'w') as file:
+
+        for h in gyr_data:
+            file.write(str(h))
+            file.write('\n')
+
 
 ```
 
@@ -251,43 +265,44 @@ module PathGen where
 import Quaternions
 
 -- transform observed rotation back into inertial frame
-update_rotation :: Quat -> Quat -> Quat
-update_rotation frame_rot obs_q = rotate (qconj frame_rot) obs_q
+change_frame :: Quat -> Quat -> Quat
+change_frame frame_rot q = normalize $ rotate (qconj frame_rot) q
 
--- list of total frame rotation at each time step
+-- list of total frame rotation from start for each time step
 total_rotation :: [Quat] -> [Quat]
-total_rotation obs_qs = scanl update_rotation (1,0,0,0) obs_qs
+total_rotation noninertial_qs = scanl change_frame (1,0,0,0) noninertial_qs
 
 -- rotate angular velocities back into inertial frame
-rotate_omegas :: [Quat] -> [Quat] -> [Quat]
-rotate_omegas ws tot_rots = [rotate (qconj tr) w | (tr, w) <- zip tot_rots ws]
+make_inertial :: [Quat] -> [Quat]
+make_inertial av = [change_frame tr w | (tr, w) <- zip tots_rots av]
+    where tots_rots = total_rotation av
 
 import_vectors :: FilePath -> IO [[Double]]
 import_vectors fname = do
     content <- readFile fname
-    let qs = map read $ lines content
-    return qs
-
-omegas_to_dx :: Double -> [[Double]] -> [Double] -> [[Double]]
-omegas_to_dx rad omegas dts = [map (t*rad*) om | (t,om) <- zip dts omegas]
-
-dx_to_path :: [[Double]] -> [[Double]]
-dx_to_path dxs = map (scanl (+) 0) [x,y,z]
-    where   x = map head dxs
-            y = map (head . drop 1) dxs
-            z = map (head . drop 2) dxs
-
+    let dat = map read $ lines content
+    return dat
 
 --make_path :: FilePath -> IO [[Double]]
 make_path fname = do
+    let radius = 4.0 -- centimeters
     dat <- import_vectors fname
     let ts = map head dat
-    let omegas = map (drop 1) dat
-    let radius = 4.0 -- centimeters
-    let disp_data = omegas_to_dx radius omegas ts
-    let path_data = dx_to_path disp_data
-    let writename = fname++"_path" :: FilePath
-    writeFile writename $ unlines (map show path_data)
+    -- direction of ang vel == rotation axis
+    -- direction of last three elements of quat == rotation axis
+    -- magnitude of ang vel == magnitude of rotation
+    let noninertial_angvels = map (drop 1) dat
+    -- mkq makes normalized quaternions even if input isn't normalized
+    let noninertial_qs = [mkq theta x y z | (x:y:z:[]) <- noninertial_angvels,
+                                            let theta = norm (0,x,y,z)]
+
+    let inertial_qs = make_inertial noninertial_qs
+
+    let rotation_vectors = [(b,c,d) | (a,b,c,d) <- inertial_qs]
+
+
+    let writename = fname++"_rot_vectors" :: FilePath
+    writeFile writename $ unlines (map show rotation_vectors)
 
 ```
 
@@ -308,11 +323,47 @@ WINSIZE = [XDIM, YDIM]
 def window_scale(p):
      return (int(p[0]+XDIM/2.0),int(YDIM - p[1] - YDIM/2.0))
 
+def plot_rot_axis(fname):
+
+    num = -5000
+
+    with open(fname,'r') as file:
+
+        dat = file.readlines()
+        nice_dat = [d.strip().strip("()").split(',') for d in dat]
+        xs = [float(x[0]) for x in nice_dat]
+        ys = [float(x[1]) for x in nice_dat]
+        zs = [float(x[2]) for x in nice_dat]
+
+    xs = xs[:num]
+    ys = ys[:num]
+    zs = zs[:num]
+
+    arrow_x = [0]*len(xs)
+    arrow_y = [0]*len(xs)
+    arrow_z = [0]*len(xs)
+
+
+    fig = plt.figure()
+    ax = fig.gca(projection='3d')
+
+    ax.set_xlim3d(left=-2.0,right=2.0)
+    ax.set_ylim3d(bottom=-2.0,top=2.0)
+    ax.set_zlim3d(bottom=-2.0,top=2.0)
+
+    ax.quiver(arrow_x, arrow_y, arrow_z, xs, ys, zs, pivot='tail', length=1,
+    arrow_length_ratio=0.01)
+
+    plt.show()
+
+    print(xs)
+
+
 def plot_path(fname):
 
     with open(fname,'r') as file:
 
-        [x,y,z] = file.readlines()
+        dat = file.readlines()
         x = [float(xelem) for xelem in x.strip().strip("[]").split(',')]
         y = [float(xelem) for xelem in y.strip().strip("[]").split(',')]
         z = [float(xelem) for xelem in z.strip().strip("[]").split(',')]

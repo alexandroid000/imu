@@ -139,7 +139,7 @@ cross3 :: Fractional a => (a,a,a) -> (a,a,a) -> (a,a,a)
 cross3 (b1,c1,d1) (b2,c2,d2) = (c1*d2 - d1*c2, d1*b2 - b1*d2, b1*c2 - c1*b2)
 
 rotate :: Quat -> Quat -> Quat
-rotate q v = normalize (qmult q v_qconj)
+rotate q v = qmult q v_qconj
     where   v_qconj = qmult v (qconj q)
 
 qmult :: Quat -> Quat -> Quat

@@ -19,8 +19,24 @@ Things you will need:
 -   wires, wirecutters, breadboard, and/or soldering iron
 -   It will be helpful to have clamps and tweezers for soldering.
 
-I HIGHLY recommend setting everything up in a breadboard before soldering
-anything.
+I HIGHLY recommend testing with a breadboard before soldering anything.
+
+### Managing Arduino Libraries
+
+Several of the steps below involve downloading an external library. When you run
+the Arduino IDE for the first time, it creates a directory (on Linux, it is
+`~/Arduino`). Inside this directory should be a directory called `libraries`. If
+it is not there, create it. Put all external libraries in `~/Arduino/libraries`.
+
+Several of the libraries we use are in the form of git repositories with
+multiple libraries included. For these, we clone the repo, then copy the
+sub-folder that is our actual library into `~/Arduino/libraries`.
+
+We will also need to copy the header files (`*.h`) from the libraries that we
+want to use into the folder containing our code that we want to upload to the
+Arduino. This is frustrating but necessary and you'll get an error like: `No
+rule to make target 'MPU9150.h', needed by 'build-promicro8/mpu9150.o'.  Stop`
+if you don't do this.
 
 ### Microcontroller
 
