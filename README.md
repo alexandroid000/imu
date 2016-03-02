@@ -86,6 +86,7 @@ VCC             |   VCC
 SCK (clock)     |   15
 DO (digital out)|   14
 DI (digital in) |   16
+CS              |   10
 
 There are example programs in the SdFat library. Try running
 `ReadWriteSdFat.ino`, located in `SdFat/examples/ReadWriteSdFat/`. You will have
